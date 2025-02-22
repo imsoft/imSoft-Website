@@ -5,10 +5,6 @@ import { ServicesSection } from "@/components/services/Services";
 const Home = () => {
   return (
     <>
-      {/* <HeroSection />
-      <FeaturesSection />
-      <ServicesSection /> */}
-
       <section className="h-screen flex items-center justify-center">
         <HeroSection />
       </section>
