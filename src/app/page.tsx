@@ -5,9 +5,19 @@ import { ServicesSection } from "@/components/services/Services";
 const Home = () => {
   return (
     <>
-      <HeroSection />
+      {/* <HeroSection />
       <FeaturesSection />
-      <ServicesSection />
+      <ServicesSection /> */}
+
+      <section className="h-screen flex items-center justify-center">
+        <HeroSection />
+      </section>
+      <section className="h-screen flex items-center justify-center">
+        <FeaturesSection />
+      </section>
+      <section className="h-screen flex items-center justify-center">
+        <ServicesSection />
+      </section>
     </>
   );
 };
