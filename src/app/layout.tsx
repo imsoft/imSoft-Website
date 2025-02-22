@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react"
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { FooterSection } from "@/components/Footer";
@@ -26,6 +27,7 @@ export default function RootLayout({
       <body className={`${montserrat.variable} antialiased`}>
         {children}
         <FooterSection />
+        <Analytics/>
       </body>
     </html>
   );
