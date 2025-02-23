@@ -5,7 +5,7 @@ export const HeroSection = () => {
   return (
     <>
       <div className="bg-white">
-        <div className="relative isolate px-6 pt-14 lg:px-8">
+        <div className="relative isolate px-6 sm:pt-14 lg:px-8">
           <div className="mx-auto max-w-7xl py-32 sm:py-48 lg:py-56">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <RandomServiceBanner />
