@@ -5,13 +5,13 @@ import { ServicesSection } from "@/components/services/Services";
 const Home = () => {
   return (
     <>
-      <section className="min-h-screen flex flex-col sm:flex-row items-center justify-center pb-4 sm:pb-6 lg:pb-8">
+      <section className="min-h-screen flex flex-col sm:flex-row items-center justify-center">
         <HeroSection />
       </section>
-      <section className="min-h-screen flex flex-col sm:flex-row items-center justify-center py-16 sm:py-24 lg:py-32">
+      <section className="min-h-screen flex flex-col sm:flex-row items-center justify-center">
         <FeaturesSection />
       </section>
-      <section className="min-h-screen flex flex-col sm:flex-row items-center justify-center py-16 sm:py-24 lg:py-32">
+      <section className="min-h-screen flex flex-col sm:flex-row items-center justify-center">
         <ServicesSection />
       </section>
     </>
