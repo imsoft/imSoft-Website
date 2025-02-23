@@ -1,4 +1,11 @@
 import { ServiceFeatures } from "@/components/services/Features";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Análisis de Datos Inteligente",
+  description:
+    "Extrae valor de tus datos y transforma cada decisión en una oportunidad para mejorar tu negocio.",
+};
 
 const pageInfo = {
   service: "Análisis de Datos Inteligente",

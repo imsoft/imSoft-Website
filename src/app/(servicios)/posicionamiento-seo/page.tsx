@@ -1,4 +1,11 @@
 import { ServiceFeatures } from "@/components/services/Features";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Posicionamiento SEO Estratégico",
+  description:
+    "Aumenta tu visibilidad en Google y atrae más clientes con estrategias SEO efectivas y personalizadas.",
+};
 
 const pageInfo = {
   service: "Posicionamiento SEO Estratégico",

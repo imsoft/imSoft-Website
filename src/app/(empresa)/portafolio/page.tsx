@@ -1,4 +1,11 @@
+import { Metadata } from "next";
 import { PortfolioCard } from "@/components/portfolio/Card";
+
+export const metadata: Metadata = {
+  title: "Portafolio",
+  description:
+    "Descubre cómo hemos ayudado a empresas a crecer con soluciones digitales innovadoras. Cada proyecto es una historia de éxito hecha con tecnología, estrategia y pasión.",
+};
 
 const portfolioInfo = [
   {

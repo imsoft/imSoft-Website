@@ -1,4 +1,11 @@
 import { ServiceFeatures } from "@/components/services/Features";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Desarrollo de Sitios Web",
+  description:
+    "Creamos sitios web rápidos, seguros y optimizados para generar más clientes y potenciar tu negocio.",
+};
 
 const pageInfo = {
   service: "Desarrollo de Sitios Web",

@@ -1,4 +1,11 @@
 import { ServiceFeatures } from "@/components/services/Features";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Aplicaciones Móviles Personalizadas",
+  description:
+    "Transforma tu negocio con una aplicación móvil intuitiva, rápida y diseñada para fidelizar clientes y aumentar ventas.",
+};
 
 const pageInfo = {
   service: "Aplicaciones Móviles Personalizadas",

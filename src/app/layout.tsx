@@ -14,8 +14,14 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "imSoft",
-  description: "imSoft",
+  title: {
+    default: "imSoft",
+    template: "%s | imSoft",
+  },
+  description: "imSoft es una empresa de desarrollo de software",
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({

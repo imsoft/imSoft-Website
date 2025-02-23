@@ -1,4 +1,11 @@
 import { ServiceFeatures } from "@/components/services/Features";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Campañas en Google Ads",
+  description:
+    "Llega a tu audiencia ideal y maximiza tus conversiones con estrategias de Google Ads que realmente funcionan.",
+};
 
 const pageInfo = {
   service: "Campañas en Google Ads",

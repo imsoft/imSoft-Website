@@ -1,4 +1,11 @@
 import { ServiceFeatures } from "@/components/services/Features";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Aplicaciones Web Personalizadas",
+  description:
+    "Desarrollamos aplicaciones web seguras y escalables que mejoran la eficiencia y productividad de tu empresa.",
+};
 
 const pageInfo = {
   service: "Aplicaciones Web Personalizadas",

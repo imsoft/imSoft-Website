@@ -1,3 +1,14 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Aviso de Privacidad",
+  description: "Aviso de privacidad de imSoft",
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
+
 const PrivacyNoticePage = () => {
   return (
     <>

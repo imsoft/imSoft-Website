@@ -1,4 +1,11 @@
+import { Metadata } from "next";
 import { CtaButtons } from "@/components/CtaButtons";
+
+export const metadata: Metadata = {
+  title: "Contacto",
+  description:
+    "Hablemos sobre tu próximo gran proyecto. Contáctanos y empecemos a trabajar juntos.",
+};
 
 const ContactPage = () => {
   return (

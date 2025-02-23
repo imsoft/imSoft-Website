@@ -1,5 +1,12 @@
-import { CtaButtons } from "@/components/CtaButtons";
 import Image from "next/image";
+import { Metadata } from "next";
+import { CtaButtons } from "@/components/CtaButtons";
+
+export const metadata: Metadata = {
+  title: "Historia",
+  description:
+    "Conoce la historia de imSoft, una empresa de tecnología con propósito y pasión por la innovación. Descubre cómo hemos crecido y evolucionado para ayudar a más negocios a alcanzar su máximo potencial.",
+};
 
 const HistoryPage = () => {
   return (
