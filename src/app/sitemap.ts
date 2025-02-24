@@ -1,6 +1,24 @@
 import { MetadataRoute } from "next";
+import { SanityDocument } from "@sanity/client";
+import { postsQuery } from "@/sanity/lib/queries";
+import { sanityFetch } from "@/sanity/lib/fetch";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const posts = await sanityFetch<SanityDocument[]>({
+    query: postsQuery,
+  });
+
+  const postEntries: MetadataRoute.Sitemap = posts.map(
+    (post: SanityDocument) => ({
+      url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/${post.slug.current}`,
+      lastModified: post._updatedAt
+        ? new Date(post._updatedAt).toISOString()
+        : new Date().toISOString(),
+      priority: 0.8,
+      changeFrequency: "weekly",
+    })
+  );
+
   return [
     {
       url: `${process.env.NEXT_PUBLIC_BASE_URL}/`,
@@ -74,5 +92,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.8,
       changeFrequency: "weekly",
     },
+    ...postEntries,
   ];
 }

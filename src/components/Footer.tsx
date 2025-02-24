@@ -6,6 +6,7 @@ import { CtaButtons } from "./CtaButtons";
 const navigation = {
   links: [
     { name: "Inicio", href: "/" },
+    { name: "Blog", href: "/blog" },
     { name: "Portafolio", href: "/portafolio" },
     { name: "Historia", href: "/historia" },
     { name: "Contacto", href: "/contacto" },
