@@ -32,7 +32,7 @@ const PostPage = async ({ params }: { params: any }) => {
     params,
   });
 
-  return <Post post={post} />;
+  return <Post post={post} aria-label="Contenido del artículo seleccionado" />;
 };
 
 export default PostPage;

@@ -10,8 +10,8 @@ const builder = imageUrlBuilder(client);
 
 export const Post = ({ post }: { post: SanityDocument }) => {
   return (
-    <main className="container mx-auto prose prose-xl px-4 py-24">
-      <h1>{post.title}</h1>
+    <main className="container mx-auto prose prose-xl px-4 py-24" aria-label={`Publicación del blog: ${post.title}`}>
+      <h1 aria-label="Título del artículo">{post.title}</h1>
       <p>{post.description}</p>
       {post?.mainImage ? (
         <Image

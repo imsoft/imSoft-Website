@@ -27,10 +27,10 @@ const navigation = {
 export const Footer = () => {
   return (
     <>
-      <footer className="bg-white">
+      <footer className="bg-white" aria-label="Pie de página del sitio">
         <div className="mx-auto max-w-7xl px-6 pt-16 pb-9 sm:pt-24 lg:px-8 lg:pt-32">
           <div className="mx-auto max-w-7xl text-center">
-            <hgroup>
+            <hgroup aria-label="Llamado a la acción para impulsar negocios">
               <h2 className="text-base/7 font-semibold text-blue-600">
                 Empieza hoy
               </h2>
@@ -41,7 +41,7 @@ export const Footer = () => {
             <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-600">
               Optimiza, automatiza y crece con tecnología diseñada para ti.
             </p>
-            <div className="mt-8 flex justify-center gap-x-6">
+            <div className="mt-8 flex justify-center gap-x-6" aria-label="Botones de contacto">
               <CtaButtons />
             </div>
           </div>
@@ -60,7 +60,7 @@ export const Footer = () => {
                   <h3 className="text-sm/6 font-semibold text-gray-950">
                     imSoft
                   </h3>
-                  <ul role="list" className="mt-6 space-y-4">
+                  <ul role="list" className="mt-6 space-y-4" aria-label="Botones de contacto">
                     {navigation.links.map((item) => (
                       <li key={item.name}>
                         <Link
@@ -85,6 +85,7 @@ export const Footer = () => {
                         <Link
                           href={item.href}
                           className="text-sm/6 text-gray-600 hover:text-gray-900"
+                          aria-label={`Enlace al servicio de ${item.name}`}
                         >
                           {item.name}
                         </Link>
@@ -102,6 +103,7 @@ export const Footer = () => {
                         <Link
                           href={item.href}
                           className="text-sm/6 text-gray-600 hover:text-gray-900"
+                          aria-label={`Enlace a ${item.name}`}
                         >
                           {item.name}
                         </Link>

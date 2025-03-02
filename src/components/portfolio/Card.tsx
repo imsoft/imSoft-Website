@@ -19,7 +19,7 @@ export const PortfolioCard = ({
 }: PortfolioCardProps) => {
   return (
     <>
-      <li key={name}>
+      <li key={name} aria-label={`Proyecto ${name}, tipo: ${type}`}>
         <div className="space-y-4">
           <div className="aspect-w-3 aspect-h-2">
             <Image
@@ -32,7 +32,10 @@ export const PortfolioCard = ({
           </div>
           <div className="space-y-2">
             <div className="space-y-1 text-lg font-medium leading-6">
-              <Link href={href}>
+              <Link
+                href={href}
+                aria-label={`Ver más detalles sobre el proyecto ${name}`}
+              >
                 <div className="inline-flex">
                   <h3 className="text-gray-600">{name}</h3>
                   <SquareArrowOutUpRight

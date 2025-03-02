@@ -181,13 +181,17 @@ interface Props {
 const SocialMediaBar = ({ iconStyle }: Props) => {
   return (
     <>
-      <div className="flex space-x-6">
+      <div
+        className="flex space-x-6"
+        aria-label="Barra de enlaces a redes sociales"
+      >
         {socialMedia.map((item) => (
           <Link
             key={item.name}
             href={item.href}
             className={`${iconStyle}`}
             target="_blank"
+            aria-label={`Enlace a ${item.name}`}
           >
             <span className="sr-only">{item.name}</span>
             <item.icon aria-hidden="true" />
