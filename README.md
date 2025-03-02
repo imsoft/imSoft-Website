@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 imSoft - Soluciones Digitales para Impulsar tu Negocio
 
-## Getting Started
+Bienvenido a **imSoft**, donde transformamos ideas en soluciones digitales innovadoras. Nos especializamos en el desarrollo de tecnología diseñada para optimizar, automatizar y potenciar negocios en el mundo digital.
 
-First, run the development server:
+## 🌟 ¿Qué hacemos?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ayudamos a empresas y emprendedores a aprovechar el poder de la tecnología para crecer, destacarse y mejorar su eficiencia.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Nuestros Servicios
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✅ **Desarrollo de Sitios Web** - Creación de sitios rápidos, seguros y diseñados para generar más clientes.  
+✅ **Tiendas en Línea** - Plataformas de e-commerce optimizadas para vender 24/7 sin complicaciones.  
+✅ **Aplicaciones Web** - Soluciones personalizadas para mejorar la productividad y la experiencia del usuario.  
+✅ **Aplicaciones Móviles** - Apps intuitivas y escalables para conectar con clientes en cualquier lugar.  
+✅ **Posicionamiento SEO** - Estrategias para aparecer en los primeros resultados de Google.  
+✅ **Campañas en Google Ads** - Publicidad digital enfocada en obtener conversiones reales.  
+✅ **Análisis de Datos** - Transformamos datos en información valiosa para tomar mejores decisiones.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💡 ¿Por qué elegir imSoft?
 
-## Learn More
+🔹 Soluciones digitales personalizadas según las necesidades de tu negocio.  
+🔹 Enfoque estratégico para maximizar resultados y retorno de inversión.  
+🔹 Experiencia en tecnología, marketing digital y automatización.  
+🔹 Compromiso con la innovación y la calidad en cada proyecto.
 
-To learn more about Next.js, take a look at the following resources:
+📩 **¿Listo para llevar tu negocio al siguiente nivel?**  
+Contáctanos y hablemos sobre cómo podemos ayudarte a crecer.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🌍 Visítanos en [imSoft.io](https://www.imsoft.io)  
+📧 Escríbenos a [contacto@imsoft.io](mailto:contacto@imsoft.io)
