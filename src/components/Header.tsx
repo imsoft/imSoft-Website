@@ -78,24 +78,11 @@ export const Header = () => {
               side="right"
               className="flex flex-col space-y-4 px-6 py-6"
             >
-              <SheetHeader className="flex flex-row items-center space-x-1 -ml-3">
-                <div>
-                  <Link href={"/"}>
-                    <Image
-                      alt="imSoft logo"
-                      src="https://res.cloudinary.com/https-imsoft-io/image/upload/v1706594670/imsoft-images/imsoft/isotipo-imsoft-transparente-azul-cuadrado.png"
-                      className="h-16 w-auto"
-                      width={64}
-                      height={64}
-                    />
-                  </Link>
-                </div>
-                <div>
-                  <SheetTitle>imSoft</SheetTitle>
-                  <SheetDescription>
-                    Transformamos Ideas en Software
-                  </SheetDescription>
-                </div>
+              <SheetHeader className="mt-10 items-start space-x-1">
+                <SheetTitle>imSoft</SheetTitle>
+                <SheetDescription>
+                  Transformamos Ideas en Software
+                </SheetDescription>
               </SheetHeader>
               <nav className="flex flex-col space-y-4">
                 {navigation.map((item) => (
