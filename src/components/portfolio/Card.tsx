@@ -37,9 +37,9 @@ export const PortfolioCard = ({
                 aria-label={`Ver más detalles sobre el proyecto ${name}`}
               >
                 <div className="inline-flex">
-                  <h3 className="text-gray-600">{name}</h3>
+                  <h3 className="text-foreground">{name}</h3>
                   <SquareArrowOutUpRight
-                    className="ml-1 mt-1 h-4 w-4 text-gray-600"
+                    className="ml-1 mt-1 h-4 w-4 text-foreground"
                     aria-hidden="true"
                   />
                 </div>

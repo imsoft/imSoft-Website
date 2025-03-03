@@ -11,7 +11,7 @@ const ContactPage = () => {
   return (
     <>
       <main aria-label="Página de contacto para iniciar proyectos con imSoft">
-        <div className="bg-white">
+        <div className="bg-background">
           <div className="mx-auto max-w-7xl py-48 sm:px-6 sm:py-64 lg:px-8">
             <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
               <h2
@@ -21,7 +21,7 @@ const ContactPage = () => {
                 Hablemos sobre tu próximo gran proyecto
               </h2>
               <p
-                className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-300"
+                className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-muted-foreground"
                 aria-label="Descripción de la sección de contacto"
               >
                 Estamos listos para ayudarte a transformar tu idea en una

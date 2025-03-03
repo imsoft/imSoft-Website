@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import {
@@ -21,6 +20,8 @@ import {
 
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
+import { ModeToggle } from "./ModeToggle";
+import { Logo } from "./Logo";
 
 const navigation = [
   { name: "Inicio", href: "/" },
@@ -34,25 +35,24 @@ const navigation = [
 export const Header = () => {
   return (
     <header
-      className="w-full bg-white fixed top-0 left-0 z-50"
+      className="w-full bg-background/90 backdrop-blur-md fixed top-0 left-0 z-50"
       aria-label="Encabezado del sitio"
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between py-4 px-6 lg:px-12">
         <div className="-ml-3 flex lg:flex-1">
           <Link href={"/"} aria-label="Inicio">
-            <Image
-              alt="imSoft logo"
-              src="https://res.cloudinary.com/https-imsoft-io/image/upload/v1706594670/imsoft-images/imsoft/isotipo-imsoft-transparente-azul-cuadrado.png"
-              className="h-16 w-auto"
-              width={64}
-              height={64}
+            <Logo
+              light="https://res.cloudinary.com/https-imsoft-io/image/upload/v1740963749/imsoft-images/imsoft/logo-imsoft-blue.png"
+              dark="https://res.cloudinary.com/https-imsoft-io/image/upload/v1740963749/imsoft-images/imsoft/logo-imsoft-white.png"
+              width={150}
+              height={40}
             />
           </Link>
         </div>
 
         {/* Desktop Menu */}
         <div
-          className="hidden md:flex"
+          className="hidden space-x-1 md:flex"
           aria-label="Menú de navegación principal"
         >
           <NavigationMenu>
@@ -75,6 +75,7 @@ export const Header = () => {
               ))}
             </NavigationMenuList>
           </NavigationMenu>
+          <ModeToggle />
         </div>
 
         {/* Mobile Menu Button */}
@@ -100,7 +101,7 @@ export const Header = () => {
                   <SheetClose asChild key={item.name}>
                     <Link
                       href={item.href}
-                      className="text-lg hover:text-gray-600"
+                      className="text-lg hover:text-foreground"
                     >
                       {item.name}
                     </Link>

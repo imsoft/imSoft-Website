@@ -166,7 +166,7 @@ const PortfolioPage = () => {
   return (
     <>
       <main aria-label="Página de portafolio con proyectos destacados de imSoft">
-        <div className="bg-white">
+        <div className="bg-background">
           <div className="mx-auto max-w-7xl py-24 px-6 lg:px-8 lg:py-24">
             <div className="space-y-12">
               <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
@@ -177,7 +177,7 @@ const PortfolioPage = () => {
                   Proyectos que Transforman Negocios
                 </h2>
                 <p
-                  className="text-xl text-gray-500"
+                  className="text-xl text-secondary-foreground"
                   aria-label="Descripción de la sección de portafolio"
                 >
                   Descubre cómo hemos ayudado a empresas a crecer con soluciones

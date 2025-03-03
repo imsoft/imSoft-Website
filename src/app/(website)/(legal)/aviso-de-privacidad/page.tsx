@@ -13,19 +13,19 @@ const PrivacyNoticePage = () => {
   return (
     <>
       <main aria-label="Página del Aviso de Privacidad de imSoft">
-        <div className="relative overflow-hidden bg-white py-16">
+        <div className="relative overflow-hidden bg-background py-16">
           <div className="relative px-6 lg:px-8">
             <div className="mx-auto max-w-prose text-lg">
               <h1 aria-label="Encabezado del Aviso de Privacidad">
                 <span className="block text-center text-lg font-semibold text-primary-600">
                   imSoft
                 </span>
-                <span className="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+                <span className="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-primary-foreground sm:text-4xl">
                   Aviso de Privacidad
                 </span>
               </h1>
             </div>
-            <div className="prose prose-lg prose-blue max-w-screen-lg mx-auto mt-6 text-gray-500">
+            <div className="prose prose-lg prose-blue max-w-screen-lg mx-auto mt-6 text-secondary-foreground">
               <p aria-label="Introducción sobre la responsabilidad del uso de datos personales">
                 Brandon Uriel Garcia Ramos mejor conocido como imSoft, con
                 domicilio en Guadalajara, Jalisco, México y portal de internet

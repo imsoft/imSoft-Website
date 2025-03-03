@@ -14,7 +14,7 @@ export const Posts = ({ posts = [] }: { posts: SanityDocument[] }) => {
   return (
     <>
       <div className="py-10 mx-auto grid grid-cols-1" aria-label="Lista de publicaciones del blog">
-        <p className="text-gray-500">Últimos posts:</p>
+        <p className="text-secondary-foreground">Últimos posts:</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {posts.map((post, index) => (
             <Link
@@ -25,7 +25,7 @@ export const Posts = ({ posts = [] }: { posts: SanityDocument[] }) => {
             >
               <div>
                 <h2 className="font-medium text-xl">{post.title}</h2>
-                <p className="py-2 text-gray-400 text-xs font-light uppercase">
+                <p className="py-2 text-muted-foreground text-xs font-light uppercase">
                   {convertDate(post._createdAt)} • {post.authorName}
                 </p>
               </div>

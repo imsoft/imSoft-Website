@@ -12,22 +12,22 @@ const HistoryPage = () => {
   return (
     <>
       <main aria-label="Página sobre la historia y evolución de imSoft">
-        <div className="bg-white py-24 sm:py-32">
+        <div className="bg-background py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
               <p
-                className="text-base/7 font-semibold text-blue-600"
+                className="text-base/7 font-semibold text-ring"
                 aria-label="Etiqueta de sección de historia"
               >
                 Nuestra historia
               </p>
               <h1
-                className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
+                className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-primary-foreground sm:text-5xl"
                 aria-label="Título de la historia de imSoft"
               >
                 Innovación con propósito, tecnología con impacto
               </h1>
-              <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base/7 text-gray-700 lg:max-w-none lg:grid-cols-2">
+              <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base/7 text-foreground lg:max-w-none lg:grid-cols-2">
                 <div>
                   <p aria-label="Primer párrafo de la historia de imSoft">
                     imSoft nació con una visión clara: ayudar a empresas y

@@ -21,23 +21,23 @@ export const ServiceFeatures = ({
 }: ServiceFeaturesProps) => {
   return (
     <>
-      <div className="bg-white py-24 sm:py-32">
+      <div className="bg-background py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-7xl lg:text-center">
             <h2
-              className="text-base/7 font-semibold text-blue-600"
+              className="text-base/7 font-semibold text-ring"
               aria-label="Nombre del servicio"
             >
               {service}
             </h2>
             <p
-              className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance"
+              className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-primary-foreground sm:text-5xl lg:text-balance"
               aria-label="Título del servicio"
             >
               {title}
             </p>
             <p
-              className="mt-6 text-lg/8 text-gray-600"
+              className="mt-6 text-lg/8 text-foreground"
               aria-label="Descripción del servicio"
             >
               {description}
@@ -54,7 +54,7 @@ export const ServiceFeatures = ({
                   className="relative pl-16"
                   aria-label={`Característica: ${feature.name}`}
                 >
-                  <dt className="text-base/7 font-semibold text-gray-900">
+                  <dt className="text-base/7 font-semibold text-primary-foreground">
                     <div
                       className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-blue-600"
                       aria-hidden="true"
@@ -64,7 +64,7 @@ export const ServiceFeatures = ({
                     {feature.name}
                   </dt>
                   <dd
-                    className="mt-2 text-base/7 text-gray-600"
+                    className="mt-2 text-base/7 text-foreground"
                     aria-label={`Descripción: ${feature.description}`}
                   >
                     {feature.description}
