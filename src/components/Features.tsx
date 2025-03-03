@@ -40,13 +40,13 @@ export const FeaturesSection = () => {
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-5">
             <div className="col-span-2">
               <h2
-                className="text-base/7 font-semibold text-ring"
+                className="text-base/7 font-semibold text-blue-500"
                 aria-label="Encabezado de la sección de características"
               >
                 Lo Que Hace la Diferencia
               </h2>
               <p
-                className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-primary-foreground sm:text-5xl"
+                className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-primary sm:text-5xl"
                 aria-label="Subtítulo de la sección de características"
               >
                 Estrategias que te hacen destacar
@@ -79,9 +79,10 @@ export const FeaturesSection = () => {
                   <dt className="font-semibold text-primary-foreground">
                     <Check
                       aria-hidden="true"
-                      className="absolute left-0 top-1 size-5 text-primary"
+                      className="absolute left-0 top-1 size-5 text-blue-600"
                     />
                     <span
+                      className="text-primary"
                       aria-label={`Nombre de la característica: ${feature.name}`}
                     >
                       {feature.name}

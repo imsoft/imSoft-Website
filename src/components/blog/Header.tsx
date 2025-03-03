@@ -3,9 +3,9 @@ export const Header = () => {
     <>
       <header className="py-8" aria-label="Encabezado del blog de imSoft">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl text-center">
+          <div className="mx-auto max-w-4xl text-center">
             <h2
-              className="text-balance text-4xl font-semibold tracking-tight text-primary-foreground sm:text-5xl"
+              className="text-balance text-4xl font-semibold tracking-tight text-primary sm:text-5xl"
               aria-label="Título del blog: Nuestro Blog"
             >
               Nuestro Blog

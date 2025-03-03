@@ -34,7 +34,7 @@ const RandomServiceBanner = () => {
         , da clic{" "}
         <Link
           href={randomService.href}
-          className="font-semibold text-primary hover:text-primary-foreground transition-colors duration-300"
+          className="font-semibold text-blue-500 hover:text-blue-600 transition-colors duration-300"
           aria-label={`Enlace al servicio: ${randomService.name}`}
         >
           <span aria-hidden="true" className="absolute inset-0" />

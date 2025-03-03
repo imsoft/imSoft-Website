@@ -20,7 +20,7 @@ const PrivacyNoticePage = () => {
                 <span className="block text-center text-lg font-semibold text-primary-600">
                   imSoft
                 </span>
-                <span className="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-primary-foreground sm:text-4xl">
+                <span className="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-primary sm:text-4xl">
                   Aviso de Privacidad
                 </span>
               </h1>

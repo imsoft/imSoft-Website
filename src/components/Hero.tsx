@@ -18,7 +18,7 @@ export const HeroSection = () => {
             </div>
             <div className="text-center">
               <h1
-                className="text-balance text-5xl font-semibold tracking-tight text-primary-foreground sm:text-7xl"
+                className="text-balance text-5xl font-semibold tracking-tight text-primary sm:text-7xl"
                 aria-label="Mensaje principal del sitio"
               >
                 Transformamos Ideas en Software

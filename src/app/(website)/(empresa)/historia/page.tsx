@@ -16,13 +16,13 @@ const HistoryPage = () => {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
               <p
-                className="text-base/7 font-semibold text-ring"
+                className="text-base/7 font-semibold text-blue-600"
                 aria-label="Etiqueta de sección de historia"
               >
                 Nuestra historia
               </p>
               <h1
-                className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-primary-foreground sm:text-5xl"
+                className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-primary sm:text-5xl"
                 aria-label="Título de la historia de imSoft"
               >
                 Innovación con propósito, tecnología con impacto
@@ -85,7 +85,7 @@ const HistoryPage = () => {
                 aria-label="Imagen representativa de la historia de imSoft"
               />
               <div aria-hidden="true" className="relative">
-                <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]" />
+                <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white dark:from-[#121212] pt-[7%]" />
               </div>
             </div>
           </div>

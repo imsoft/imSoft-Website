@@ -25,13 +25,13 @@ export const ServiceFeatures = ({
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-7xl lg:text-center">
             <h2
-              className="text-base/7 font-semibold text-ring"
+              className="text-base/7 font-semibold text-blue-600"
               aria-label="Nombre del servicio"
             >
               {service}
             </h2>
             <p
-              className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-primary-foreground sm:text-5xl lg:text-balance"
+              className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-primary sm:text-5xl lg:text-balance"
               aria-label="Título del servicio"
             >
               {title}
@@ -56,12 +56,12 @@ export const ServiceFeatures = ({
                 >
                   <dt className="text-base/7 font-semibold text-primary-foreground">
                     <div
-                      className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-blue-600"
+                      className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-blue-500"
                       aria-hidden="true"
                     >
                       <Check aria-hidden="true" className="size-6 text-white" />
                     </div>
-                    {feature.name}
+                    <span className="text-primary">{feature.name}</span>
                   </dt>
                   <dd
                     className="mt-2 text-base/7 text-foreground"

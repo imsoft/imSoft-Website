@@ -69,9 +69,9 @@ export const ServicesSection = () => {
         aria-label="Sección de servicios de imSoft"
       >
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-4xl text-center">
+          <div className="mx-auto max-w-5xl text-center">
             <h2
-              className="text-balance text-4xl font-semibold tracking-tight text-primary-foreground sm:text-5xl"
+              className="text-balance text-4xl font-semibold tracking-tight text-primary sm:text-5xl"
               aria-label="Título de la sección de servicios"
             >
               Impulsa tu negocio hoy
@@ -98,7 +98,7 @@ export const ServicesSection = () => {
                   <Image
                     alt={service.title + " - imSoft"}
                     src={service.imageUrl}
-                    className="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                    className="aspect-video w-full rounded-2xl bg-secondary object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
                     width={3603}
                     height={2402}
                     aria-label={`Imagen representativa del servicio: ${service.title}`}
@@ -107,7 +107,7 @@ export const ServicesSection = () => {
                 </div>
                 <div className="max-w-xl">
                   <div className="group relative">
-                    <h3 className="mt-3 text-lg/6 font-semibold text-primary-foreground group-hover:text-foreground">
+                    <h3 className="mt-3 text-lg/6 font-semibold text-primary group-hover:text-blue-600">
                       <Link
                         href={service.href}
                         aria-label={`Enlace al servicio: ${service.title}`}
@@ -117,7 +117,7 @@ export const ServicesSection = () => {
                       </Link>
                     </h3>
                     <p
-                      className="mt-5 line-clamp-3 text-sm/6 text-foreground"
+                      className="mt-3 line-clamp-3 text-sm/6 text-foreground"
                       aria-label={`Descripción del servicio: ${service.description}`}
                     >
                       {service.description}

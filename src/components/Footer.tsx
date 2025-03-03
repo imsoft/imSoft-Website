@@ -31,10 +31,10 @@ export const Footer = () => {
         <div className="mx-auto max-w-7xl px-6 pt-16 pb-9 sm:pt-24 lg:px-8 lg:pt-32">
           <div className="mx-auto max-w-7xl text-center">
             <hgroup aria-label="Llamado a la acción para impulsar negocios">
-              <h2 className="text-base/7 font-semibold text-ring">
+              <h2 className="text-base/7 font-semibold text-blue-500">
                 Empieza hoy
               </h2>
-              <p className="mt-2 text-balance text-4xl font-semibold tracking-tight text-primary-foreground sm:text-5xl">
+              <p className="mt-2 text-balance text-4xl font-semibold tracking-tight text-primary sm:text-5xl">
                 Impulsa tu negocio con soluciones digitales efectivas.
               </p>
             </hgroup>

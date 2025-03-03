@@ -81,9 +81,10 @@ export const Header = () => {
         {/* Mobile Menu Button */}
         <div className="md:hidden">
           <Sheet>
+            <ModeToggle />
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" aria-label="Abrir menú móvil">
-                <Menu size={24} />
+                <Menu className="text-primary" size={24} />
               </Button>
             </SheetTrigger>
             <SheetContent

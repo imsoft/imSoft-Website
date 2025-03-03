@@ -24,8 +24,8 @@ export const Posts = ({ posts = [] }: { posts: SanityDocument[] }) => {
               aria-label={`Leer más sobre el post: ${post.title}`}
             >
               <div>
-                <h2 className="font-medium text-xl">{post.title}</h2>
-                <p className="py-2 text-muted-foreground text-xs font-light uppercase">
+                <h2 className="font-medium text-xl text-primary">{post.title}</h2>
+                <p className="py-2 text-foreground text-xs font-light uppercase">
                   {convertDate(post._createdAt)} • {post.authorName}
                 </p>
               </div>

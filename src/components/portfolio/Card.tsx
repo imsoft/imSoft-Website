@@ -44,7 +44,7 @@ export const PortfolioCard = ({
                   />
                 </div>
               </Link>
-              <p className="text-primary-600 text-xs">{type}</p>
+              <p className="text-primary text-xs">{type}</p>
             </div>
           </div>
         </div>
