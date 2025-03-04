@@ -102,7 +102,7 @@ export const Header = () => {
                   <SheetClose asChild key={item.name}>
                     <Link
                       href={item.href}
-                      className="text-lg hover:text-foreground"
+                      className="text-lg text-primary"
                     >
                       {item.name}
                     </Link>
