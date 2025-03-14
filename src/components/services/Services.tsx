@@ -65,13 +65,13 @@ export const ServicesSection = () => {
   return (
     <>
       <div
-        className="bg-background py-8 sm:py-10"
+        className="bg-background py-10 sm:py-12"
         aria-label="Sección de servicios de imSoft"
       >
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-5xl text-center">
             <h2
-              className="text-balance text-4xl font-semibold tracking-tight text-primary sm:text-5xl"
+              className="text-balance mt-20 text-4xl font-semibold tracking-tight text-primary sm:text-5xl"
               aria-label="Título de la sección de servicios"
             >
               Impulsa tu negocio hoy
