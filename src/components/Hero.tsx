@@ -9,7 +9,7 @@ export const HeroSection = () => {
         aria-label="Sección principal del sitio"
       >
         <div className="relative isolate px-6 lg:px-8">
-          <div className="mx-auto max-w-7xl py-16 sm:py-12 lg:py-14">
+          <div className="mx-auto max-w-7xl py-8 sm:py-6 lg:py-7">
             <div
               className="hidden sm:mb-8 sm:flex sm:justify-center"
               aria-label="Banner de servicio destacado"
@@ -36,7 +36,7 @@ export const HeroSection = () => {
                 className="mt-10 flex items-center justify-center gap-x-6"
                 aria-label="Botones de acción principal"
               >
-                <CtaButtons />
+                <CtaButtons showServices />
               </div>
             </div>
           </div>

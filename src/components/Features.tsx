@@ -33,7 +33,7 @@ export const FeaturesSection = () => {
   return (
     <>
       <div
-        className="bg-background py-32 sm:py-40"
+        className="bg-background py-8 sm:py-10"
         aria-label="Sección de características y beneficios"
       >
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

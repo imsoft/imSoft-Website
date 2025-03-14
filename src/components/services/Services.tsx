@@ -65,7 +65,7 @@ export const ServicesSection = () => {
   return (
     <>
       <div
-        className="bg-background py-24 sm:py-32"
+        className="bg-background py-8 sm:py-10"
         aria-label="Sección de servicios de imSoft"
       >
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
