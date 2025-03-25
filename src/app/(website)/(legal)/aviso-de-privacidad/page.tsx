@@ -34,7 +34,7 @@ const PrivacyNoticePage = () => {
                 lo siguiente:
               </p>
               <h2 aria-label="Fines del uso de los datos personales">
-                <strong>
+                <strong className="text-primary">
                   ¿Para qué fines utilizaremos sus datos personales?
                 </strong>
               </h2>
@@ -48,7 +48,7 @@ const PrivacyNoticePage = () => {
                 cualquier servicio solicitado.
               </p>
               <h2 aria-label="Datos personales recabados">
-                <strong>
+                <strong className="text-primary">
                   ¿Qué datos personales utilizaremos para estos fines?
                 </strong>
               </h2>
@@ -59,7 +59,7 @@ const PrivacyNoticePage = () => {
               </p>
               <p>Datos de identificación y contacto, Datos laborales.</p>
               <h2 aria-label="Ejercicio de los derechos ARCO">
-                <strong>
+                <strong className="text-primary">
                   ¿Cómo puede acceder, rectificar o cancelar sus datos
                   personales, u oponerse a su uso o ejercer la revocación de
                   consentimiento?
@@ -95,19 +95,19 @@ const PrivacyNoticePage = () => {
                 <li>Asunto «Derechos ARCO».</li>
               </ul>
               <h2 aria-label="Plazo de respuesta para solicitudes">
-                <strong>
+                <strong className="text-primary">
                   ¿En cuántos días le daremos respuesta a su solicitud?
                 </strong>
               </h2>
               <p>5 días.</p>
               <h2 aria-label="Medio de comunicación para respuestas">
-                <strong>
+                <strong className="text-primary">
                   ¿Por qué medio le comunicaremos la respuesta a su solicitud?
                 </strong>
               </h2>
               <p>contacto@imsoft.io.</p>
               <h2 aria-label="Tecnologías de rastreo en el sitio web">
-                <strong>
+                <strong className="text-primary">
                   El uso de tecnologías de rastreo en nuestro portal de internet
                 </strong>
               </h2>
@@ -119,7 +119,7 @@ const PrivacyNoticePage = () => {
                 navegar en nuestra página.
               </p>
               <h2 aria-label="Modificaciones al aviso de privacidad">
-                <strong>
+                <strong className="text-primary">
                   ¿Cómo puede conocer los cambios en este aviso de privacidad?
                 </strong>
               </h2>
