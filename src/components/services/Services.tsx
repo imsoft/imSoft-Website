@@ -95,15 +95,21 @@ export const ServicesSection = () => {
                 aria-label={`Servicio: ${service.title}`}
               >
                 <div className="relative w-full">
-                  <Image
-                    alt={service.title + " - imSoft"}
-                    src={service.imageUrl}
-                    className="aspect-video w-full rounded-2xl bg-secondary object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
-                    width={3603}
-                    height={2402}
-                    aria-label={`Imagen representativa del servicio: ${service.title}`}
-                  />
-                  <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+                  <Link
+                    href={service.href}
+                    aria-label={`Imagen del servicio: ${service.title}`}
+                    className="block"
+                  >
+                    <Image
+                      alt={service.title + " - imSoft"}
+                      src={service.imageUrl}
+                      className="aspect-video w-full rounded-2xl bg-secondary object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                      width={3603}
+                      height={2402}
+                      aria-label={`Imagen representativa del servicio: ${service.title}`}
+                    />
+                    <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+                  </Link>
                 </div>
                 <div className="max-w-xl">
                   <div className="group relative">
