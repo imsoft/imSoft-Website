@@ -1,35 +1,26 @@
 import { Check } from "lucide-react";
 import { CtaButtons } from "./CtaButtons";
+import { CtaButton } from "@/interfaces/CtaButton";
 
-const features = [
-  {
-    name: "Tecnología a tu medida",
-    description: "Soluciones digitales adaptadas a tu negocio.",
-  },
-  {
-    name: "Crece sin límites",
-    description: "Tecnología escalable que evoluciona contigo.",
-  },
-  {
-    name: "Resultados comprobados",
-    description: "Experiencia comprobada que impulsa tu éxito.",
-  },
-  {
-    name: "Estrategia inteligente",
-    description: "Datos y análisis para maximizar tu inversión.",
-  },
-  {
-    name: "Innovación continua",
-    description: "Tecnología de vanguardia para tu negocio.",
-  },
-  {
-    name: "Soporte confiable",
-    description:
-      "Acompañamiento y asistencia para el crecimiento de tu proyecto.",
-  },
-];
+interface FeatureSectionProps {
+  dictionary: {
+    headline: string;
+    title: string;
+    description: string;
+    features: {
+      name: string;
+      description: string;
+    }[];
+  };
+  ctaButtons: CtaButton;
+}
 
-export const FeaturesSection = () => {
+export const FeaturesSection = ({
+  dictionary,
+  ctaButtons,
+}: FeatureSectionProps) => {
+  const { headline, title, description, features } = dictionary;
+
   return (
     <>
       <div
@@ -43,27 +34,25 @@ export const FeaturesSection = () => {
                 className="text-base/7 font-semibold text-blue-500"
                 aria-label="Encabezado de la sección de características"
               >
-                Lo Que Hace la Diferencia
+                {headline}
               </h2>
               <p
                 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-primary sm:text-5xl"
                 aria-label="Subtítulo de la sección de características"
               >
-                Estrategias que te hacen destacar
+                {title}
               </p>
               <p
                 className="mt-6 text-base/7 text-foreground"
                 aria-label="Descripción de la sección de características"
               >
-                Soluciones digitales diseñadas para posicionarte por encima de
-                la competencia. Innovación, eficiencia y resultados que impulsan
-                tu negocio.
+                {description}
               </p>
               <div
                 className="mt-8 flex gap-x-6"
                 aria-label="Botones para contactar a imSoft"
               >
-                <CtaButtons />
+                <CtaButtons dictionary={ctaButtons} />
               </div>
             </div>
             <dl

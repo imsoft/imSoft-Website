@@ -1,0 +1,510 @@
+{
+  "header": {
+    "navigation": [
+      { "name": "Inicio", "href": "/" },
+      { "name": "Servicios", "href": "/servicios" },
+      { "name": "Portafolio", "href": "/portafolio" },
+      { "name": "Blog", "href": "/blog" },
+      { "name": "Historia", "href": "/historia" },
+      { "name": "Contacto", "href": "/contacto" }
+    ],
+    "mobileMenuTitle": "imSoft",
+    "mobileMenuDescription": "Transformamos Ideas en Software"
+  },
+  "footer": {
+    "cta": {
+      "title": "Empieza hoy",
+      "subtitle": "Impulsa tu negocio con soluciones digitales efectivas.",
+      "description": "Optimiza, automatiza y crece con tecnología diseñada para ti."
+    },
+    "navigation": {
+      "sections": {
+        "company": "imSoft",
+        "services": "Servicios",
+        "legal": "Legal"
+      },
+      "links": [
+        { "name": "Inicio", "href": "/" },
+        { "name": "Servicios", "href": "/servicios" },
+        { "name": "Portafolio", "href": "/portafolio" },
+        { "name": "Blog", "href": "/blog" },
+        { "name": "Historia", "href": "/historia" },
+        { "name": "Contacto", "href": "/contacto" }
+      ],
+      "services": [
+        { "name": "Análisis de Datos", "href": "/analisis-de-datos" },
+        { "name": "Aplicaciones Móviles", "href": "/aplicaciones-moviles" },
+        { "name": "Aplicaciones Web", "href": "/aplicaciones-web" },
+        { "name": "Campañas en Google Ads", "href": "/campanas-en-google-ads" },
+        {
+          "name": "Desarrollo de Sitios Web",
+          "href": "/desarrollo-de-sitios-web"
+        },
+        { "name": "Posicionamiento SEO", "href": "/posicionamiento-seo" },
+        { "name": "Tienda en Línea", "href": "/tienda-en-linea" }
+      ],
+      "legal": [
+        { "name": "Aviso de privacidad", "href": "/aviso-de-privacidad" }
+      ]
+    },
+    "copyright": "imSoft, Inc. Todos los derechos reservados."
+  },
+  "randomServiceBanner": {
+    "text": "Descubre más sobre",
+    "linkText": "aquí",
+    "services": [
+      { "name": "Análisis de Datos", "href": "/analisis-de-datos" },
+      { "name": "Aplicaciones Móviles", "href": "/aplicaciones-moviles" },
+      { "name": "Aplicaciones Web", "href": "/aplicaciones-web" },
+      { "name": "Campañas en Google Ads", "href": "/campanas-en-google-ads" },
+      {
+        "name": "Desarrollo de Sitios Web",
+        "href": "/desarrollo-de-sitios-web"
+      },
+      { "name": "Posicionamiento SEO", "href": "/posicionamiento-seo" },
+      { "name": "Tiendas en Línea", "href": "/tienda-en-linea" }
+    ]
+  },
+  "ctaButtons": {
+    "whatsapp": "Hablemos por WhatsApp",
+    "email": "Email de contacto",
+    "services": "Servicios",
+    "message": "👋 Hola imSoft, ¿cómo estás? Estoy interesado en conocer más sobre sus servicios. Me gustaría recibir información detallada y asesoría para encontrar la mejor solución para mi negocio. ¡Gracias!🚀"
+  },
+  "homePage": {
+    "heroSection": {
+      "title": "Transformamos Ideas en Software",
+      "description": [
+        "En imSoft, convertimos tu visión en realidad con tecnología innovadora y desarrollo de software de alto impacto.",
+        "📈 Más tráfico. Más clientes. Más crecimiento."
+      ]
+    },
+    "featuresSection": {
+      "headline": "Lo Que Hace la Diferencia",
+      "title": "Estrategias que te hacen destacar",
+      "description": "Soluciones digitales diseñadas para posicionarte por encima de la competencia. Innovación, eficiencia y resultados que impulsan tu negocio.",
+      "features": [
+        {
+          "name": "Tecnología a tu medida",
+          "description": "Soluciones digitales adaptadas a tu negocio."
+        },
+        {
+          "name": "Crece sin límites",
+          "description": "Tecnología escalable que evoluciona contigo."
+        },
+        {
+          "name": "Resultados comprobados",
+          "description": "Experiencia comprobada que impulsa tu éxito."
+        },
+        {
+          "name": "Estrategia inteligente",
+          "description": "Datos y análisis para maximizar tu inversión."
+        },
+        {
+          "name": "Innovación continua",
+          "description": "Tecnología de vanguardia para tu negocio."
+        },
+        {
+          "name": "Soporte confiable",
+          "description": "Acompañamiento y asistencia para el crecimiento de tu proyecto."
+        }
+      ]
+    },
+    "servicesSection": {
+      "title": "Impulsa tu negocio hoy",
+      "description": "Estrategias digitales diseñadas para hacer crecer tu marca, atraer más clientes y generar resultados reales.",
+      "services": [
+        {
+          "title": "Análisis de Datos",
+          "description": "Toma decisiones basadas en datos, no en suposiciones.",
+          "href": "/analisis-de-datos",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706898185/imsoft-images/services/analisis-de-datos-imsoft.jpg"
+        },
+        {
+          "title": "Aplicaciones Móviles",
+          "description": "Conéctate con clientes a través de una app intuitiva.",
+          "href": "/aplicaciones-moviles",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706898396/imsoft-images/services/aplicaciones-moviles-imsoft.jpg"
+        },
+        {
+          "title": "Aplicaciones Web",
+          "description": "Automatiza y optimiza procesos con soluciones personalizadas.",
+          "href": "/aplicaciones-web",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/aplicacion-web-imsoft.jpg"
+        },
+        {
+          "title": "Campañas en Google Ads",
+          "description": "Anuncios optimizados para más conversiones y menor costo.",
+          "href": "/campanas-en-google-ads",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706902047/imsoft-images/services/campan%CC%83as-google-ads-imsoft.jpg"
+        },
+        {
+          "title": "Desarrollo de Sitios Web",
+          "description": "Sitios rápidos, seguros y diseñados para vender.",
+          "href": "/desarrollo-de-sitios-web",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/sitio-web-imsoft.jpg"
+        },
+        {
+          "title": "Posicionamiento SEO",
+          "description": "Aparece en Google y atrae más clientes orgánicamente.",
+          "href": "/posicionamiento-seo",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/posicionamiento-seo-imsoft.jpg"
+        },
+        {
+          "title": "Tienda en Línea",
+          "description": "Vende 24/7 con una tienda optimizada y eficiente.",
+          "href": "/tienda-en-linea",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595027/imsoft-images/services/tienda-en-linea-imsoft.jpg"
+        }
+      ]
+    }
+  },
+  "company": {
+    "portfolio": {
+      "title": "Proyectos que Transforman Negocios",
+      "description": "Descubre cómo hemos ayudado a empresas a crecer con soluciones digitales innovadoras. Cada proyecto es una historia de éxito hecha con tecnología, estrategia y pasión.",
+      "portfolioInfo": [
+        {
+          "name": "BemästraDental",
+          "type": "Sitio Web 👨‍💻",
+          "url": "https://xn--bemstradental-dfb.com/",
+          "alt": "Sitio Web - BemästraDental - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595313/imsoft-images/portfolio/website/sitio-web-dental-welt.png"
+        },
+        {
+          "name": "Infinito Empresarial y Aduanero",
+          "type": "Sitio Web 👨‍💻",
+          "url": "http://infinitoad.com/",
+          "alt": "Sitio Web - Infinito Empresarial y Aduanero  - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595314/imsoft-images/portfolio/website/sitio-web-infinito-empresarial-y-aduanero.png"
+        },
+        {
+          "name": "Profibra",
+          "type": "Sitio Web 👨‍💻",
+          "url": "http://profibra.com.mx/",
+          "alt": "Sitio Web - Profibra - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595314/imsoft-images/portfolio/website/sitio-web-profibra.png"
+        },
+        {
+          "name": "Club De Estirpe",
+          "type": "Sitio Web 👨‍💻",
+          "url": "http://clubdeestirpe.com/",
+          "alt": "Sitio Web - Club de Estirpe - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595311/imsoft-images/portfolio/website/sitio-web-club-de-estirpe-imsoft.png"
+        },
+        {
+          "name": "Construcción Inteligente",
+          "type": "Sitio Web 👨‍💻",
+          "url": "https://construccioninteligente.mx/",
+          "alt": "Sitio Web - Construccion Inteligente - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595313/imsoft-images/portfolio/website/sitio-web-construccion-inteligente-imsoft.png"
+        },
+        {
+          "name": "Ferreacabados Jalisco",
+          "type": "Sitio Web 👨‍💻",
+          "url": "https://ferrejalisco.mx/",
+          "alt": "Sitio Web - Ferreacabdos Jalisco - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595314/imsoft-images/portfolio/website/sitio-web-ferreacabdos-jalisco-imsoft.png"
+        },
+        {
+          "name": "JTP Logistics",
+          "type": "Sitio Web 👨‍💻",
+          "url": "https://www.jtp.com.mx/",
+          "alt": "Sitio Web - JTP Logistics - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595314/imsoft-images/portfolio/website/sitio-web-jtp-logistics-imsoft.png"
+        },
+        {
+          "name": "Constructora RM",
+          "type": "Sitio Web 👨‍💻",
+          "url": "https://constructorarm.mx/",
+          "alt": "Sitio Web - Constructora RM - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595312/imsoft-images/portfolio/website/sitio-web-constructorarm-imsoft.png"
+        },
+        {
+          "name": "Cursumi",
+          "type": "Sitio Web 👨‍💻",
+          "url": "https://cursumi.com/",
+          "alt": "Sitio Web Pro - Cursumi - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595491/imsoft-images/portfolio/website-pro/sitio-web-pro-cursumi.png"
+        },
+        {
+          "name": "The Gaming Corps",
+          "type": "Sitio Web 👨‍💻",
+          "url": "https://thegamingcorps.com/",
+          "alt": "Sitio Web Pro - The Gaming Corps - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1709919081/imsoft-images/portfolio/website-pro/sitio-web-pro-the-gaming-corps.png"
+        },
+        {
+          "name": "Santa Maria Del Oro Jalisco",
+          "type": "Sitio Web 👨‍💻",
+          "url": "http://santamariadelorojal.com/",
+          "alt": "Sitio Web Pro - Santa Maria Del Oro Jalisco - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595492/imsoft-images/portfolio/website-pro/sitio-web-pro-santa-maria-del-oro-jalisco-imsoft.png"
+        },
+        {
+          "name": "Tuxcacuesco",
+          "type": "Sitio Web 👨‍💻",
+          "url": "https://tuxcacuesco.gob.mx/#/",
+          "alt": "Sitio Web Pro - Tuxcacuesco - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595493/imsoft-images/portfolio/website-pro/sitio-web-pro-tuxcacuesco-imsoft.png"
+        },
+        {
+          "name": "Pastería La Hidalguense",
+          "type": "Aplicación Web 🖥️📊",
+          "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595207/imsoft-images/portfolio/web-application/aplicaciones-web-pasteria-la-hidalguense-imsoft.png",
+          "alt": "Aplicación Web - Pastería La Hidalguense - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595207/imsoft-images/portfolio/web-application/aplicaciones-web-pasteria-la-hidalguense-imsoft.png"
+        },
+        {
+          "name": "Club De Estirpe",
+          "type": "Aplicación Móvil 📱📊",
+          "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595385/imsoft-images/portfolio/mobile-apps/club-de-estirpe-aplicacion-movil-imsoft.png",
+          "alt": "Aplicación Móvil - Club De Estirpe - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595385/imsoft-images/portfolio/mobile-apps/club-de-estirpe-aplicacion-movil-imsoft.png"
+        },
+        {
+          "name": "Steridental",
+          "type": "Aplicación Web 🖥️📊",
+          "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1709918898/imsoft-images/portfolio/web-application/aplicaciones-web-steridental-imsoft.png",
+          "alt": "Aplicación Móvil - Steridental - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1709918898/imsoft-images/portfolio/web-application/aplicaciones-web-steridental-imsoft.png"
+        },
+        {
+          "name": "¡Contáctanos!",
+          "type": "¡Sigues tu! 💻🏆",
+          "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595141/imsoft-images/portfolio/others/aqui-va-el-siguiente-paso-para-tu-negocio-imsoft.png",
+          "alt": "Contáctanos - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595141/imsoft-images/portfolio/others/aqui-va-el-siguiente-paso-para-tu-negocio-imsoft.png"
+        }
+      ]
+    },
+    "history": {
+      "tag": "Nuestra historia",
+      "title": "Innovación con propósito, tecnología con impacto",
+      "paragraphs": [
+        "imSoft nació con una visión clara: ayudar a empresas y emprendedores a aprovechar la tecnología para crecer y destacar en el mercado. Lo que comenzó como un sueño, pronto se convirtió en un equipo apasionado por la innovación y la eficiencia digital.",
+        "Desde el primer día, nos hemos enfocado en crear soluciones que realmente marquen la diferencia. No solo desarrollamos software, creamos herramientas que impulsan negocios y transforman ideas en resultados reales.",
+        "Cada proyecto ha sido un desafío, pero también una oportunidad para aprender, mejorar y crecer junto a nuestros clientes. Creemos en la tecnología como un puente hacia nuevas oportunidades, y nuestro compromiso es hacer que cada solución sea intuitiva, eficiente y escalable.",
+        "El futuro de imSoft es claro: seguir innovando, seguir aprendiendo y seguir creando soluciones digitales que ayuden a más negocios a alcanzar su máximo potencial. Nos emociona lo que está por venir, y queremos que seas parte de esta historia."
+      ],
+      "imageAlt": "Historia de imSoft"
+    },
+    "contact": {
+      "title": "Hablemos sobre tu próximo gran proyecto",
+      "description": "Estamos listos para ayudarte a transformar tu idea en una solución digital poderosa. Contáctanos y empecemos a trabajar juntos."
+    }
+  },
+  "content": {
+    "blogPage": {
+      "title": "Nuestro Blog",
+      "description": "Descubre estrategias, tendencias y consejos para potenciar tu negocio con tecnología."
+    }
+  },
+  "services": {
+    "dataAnalysis": {
+      "service": "Análisis de Datos Inteligente",
+      "title": "Convierte información en crecimiento estratégico",
+      "description": "Extrae valor de tus datos y transforma cada decisión en una oportunidad para mejorar tu negocio.",
+      "features": [
+        {
+          "name": "Decisiones basadas en datos",
+          "description": "Toma decisiones estratégicas con información precisa y en tiempo real."
+        },
+        {
+          "name": "Optimización de procesos",
+          "description": "Mejora la eficiencia operativa y reduce costos con análisis inteligente."
+        },
+        {
+          "name": "Predicción y tendencias",
+          "description": "Anticipa cambios en el mercado y adelántate a la competencia."
+        },
+        {
+          "name": "Reportes detallados",
+          "description": "Obtén visualizaciones claras y comprensibles para impulsar tu negocio."
+        }
+      ],
+      "message": "👋 Hola imSoft, ¿cómo estás? Quiero conocer más sobre sus servicios de análisis de datos. 📊 Me interesa entender cómo puedo aprovechar mis datos para mejorar mis estrategias y tomar mejores decisiones."
+    },
+    "mobileApplications": {
+      "service": "Aplicaciones Móviles Personalizadas",
+      "title": "Conecta con tus clientes en cualquier momento y lugar",
+      "description": "Transforma tu negocio con una aplicación móvil intuitiva, rápida y diseñada para fidelizar clientes y aumentar ventas.",
+      "features": [
+        {
+          "name": "Experiencia optimizada",
+          "description": "Diseño intuitivo y fluido para ofrecer la mejor experiencia de usuario."
+        },
+        {
+          "name": "Notificaciones en tiempo real",
+          "description": "Mantén a tus clientes informados y comprometidos con alertas personalizadas."
+        },
+        {
+          "name": "Integración con sistemas",
+          "description": "Conecta tu app con plataformas de pago, bases de datos y más."
+        },
+        {
+          "name": "Rendimiento y seguridad",
+          "description": "Apps rápidas, seguras y optimizadas para cualquier dispositivo móvil."
+        }
+      ],
+      "message": "👋 Hola imSoft, ¿cómo estás? Me interesa desarrollar una aplicación móvil. 📱 Quisiera conocer detalles sobre el proceso de desarrollo, funcionalidades y costos."
+    },
+    "webApplications": {
+      "service": "Aplicaciones Web Personalizadas",
+      "title": "Automatiza y optimiza tu negocio con tecnología a medida",
+      "description": "Desarrollamos aplicaciones web seguras y escalables que mejoran la eficiencia y productividad de tu empresa.",
+      "features": [
+        {
+          "name": "Desarrollo a medida",
+          "description": "Soluciones adaptadas a las necesidades y objetivos de tu negocio."
+        },
+        {
+          "name": "Escalabilidad garantizada",
+          "description": "Aplicaciones preparadas para crecer junto con tu empresa."
+        },
+        {
+          "name": "Seguridad y rendimiento",
+          "description": "Protección avanzada y optimización para garantizar velocidad y estabilidad."
+        },
+        {
+          "name": "Integraciones flexibles",
+          "description": "Conexión con herramientas y sistemas para mejorar la eficiencia."
+        }
+      ],
+      "message": "👋 Hola imSoft, ¿cómo estás? Necesito una aplicación web para mi negocio. 🔧 Me gustaría saber qué opciones tienen y cómo puede ayudarme a mejorar la eficiencia de mi empresa."
+    },
+    "googleAdsCampaigns": {
+      "service": "Campañas en Google Ads",
+      "title": "Atrae clientes en el momento exacto con anuncios optimizados",
+      "description": "Llega a tu audiencia ideal y maximiza tus conversiones con estrategias de Google Ads que realmente funcionan.",
+      "features": [
+        {
+          "name": "Segmentación precisa",
+          "description": "Anuncios dirigidos a las personas correctas en el momento adecuado."
+        },
+        {
+          "name": "Optimización continua",
+          "description": "Ajustamos tu campaña para mejorar el rendimiento y reducir costos."
+        },
+        {
+          "name": "Anuncios atractivos",
+          "description": "Copywriting y diseño optimizados para aumentar clics y conversiones."
+        },
+        {
+          "name": "Resultados medibles",
+          "description": "Datos en tiempo real para analizar, ajustar y mejorar tu ROI."
+        }
+      ],
+      "message": "👋 Hola imSoft, ¿cómo estás? Estoy interesado en campañas de Google Ads para mi negocio. 📢 Quisiera saber cómo pueden ayudarme a atraer más clientes y optimizar mi inversión en publicidad."
+    },
+    "websiteDevelopment": {
+      "service": "Desarrollo de Sitios Web",
+      "title": "Convierte tu sitio web en una máquina de ventas",
+      "description": "Creamos sitios web rápidos, seguros y optimizados para generar más clientes y potenciar tu negocio.",
+      "features": [
+        {
+          "name": "Diseño atractivo y funcional",
+          "description": "Experiencia de usuario optimizada para convertir visitantes en clientes."
+        },
+        {
+          "name": "Velocidad y rendimiento",
+          "description": "Sitios web rápidos y eficientes para mejorar la experiencia del usuario y el SEO."
+        },
+        {
+          "name": "Seguridad avanzada",
+          "description": "Protección contra ataques y vulnerabilidades para garantizar un sitio confiable."
+        },
+        {
+          "name": "SEO integrado",
+          "description": "Optimización desde el primer día para posicionarte en Google."
+        }
+      ],
+      "message": "👋 Hola imSoft, ¿cómo estás? Estoy interesado en desarrollar un sitio web para mi negocio. 💻 Me gustaría conocer opciones y características para optimizar mi presencia digital. ¿Podrían darme más información?"
+    },
+    "seoPositioning": {
+      "service": "Posicionamiento SEO Estratégico",
+      "title": "Haz que tu negocio aparezca en los primeros resultados",
+      "description": "Aumenta tu visibilidad en Google y atrae más clientes con estrategias SEO efectivas y personalizadas.",
+      "features": [
+        {
+          "name": "Optimización On-Page",
+          "description": "Mejora la estructura, velocidad y contenido de tu sitio para un mejor ranking."
+        },
+        {
+          "name": "Estrategias de contenido",
+          "description": "Crea artículos y páginas optimizadas para atraer tráfico orgánico constante."
+        },
+        {
+          "name": "SEO técnico avanzado",
+          "description": "Corrección de errores, indexación y mejoras para que Google entienda mejor tu web."
+        },
+        {
+          "name": "Link Building inteligente",
+          "description": "Consigue enlaces de calidad para aumentar la autoridad de tu sitio."
+        }
+      ],
+      "message": "👋 Hola imSoft, ¿cómo estás? Quiero mejorar el posicionamiento de mi negocio en Google. 🔍 Me gustaría saber cómo pueden ayudarme a aumentar mi tráfico y visibilidad en los buscadores."
+    },
+    "onlineStores": {
+      "service": "Tiendas en Línea Optimizadas",
+      "title": "Vende 24/7 con una tienda en línea poderosa",
+      "description": "Lleva tu negocio al mundo digital con una tienda en línea segura, rápida y diseñada para maximizar tus ventas.",
+      "features": [
+        {
+          "name": "Proceso de compra optimizado",
+          "description": "Facilita la experiencia de compra con un diseño intuitivo y eficiente."
+        },
+        {
+          "name": "Pagos seguros y flexibles",
+          "description": "Acepta múltiples métodos de pago con transacciones seguras y confiables."
+        },
+        {
+          "name": "Gestión de inventario",
+          "description": "Administra productos, stock y pedidos en tiempo real desde cualquier dispositivo."
+        },
+        {
+          "name": "SEO y visibilidad",
+          "description": "Aparece en los primeros resultados de búsqueda y atrae más clientes."
+        }
+      ],
+      "message": "👋 Hola imSoft, ¿cómo estás? Quiero información sobre la creación de una tienda en línea. 🛒 Me interesa vender mis productos digitalmente y necesito conocer los planes y funcionalidades que ofrecen."
+    }
+  },
+  "legal": {
+    "title": "Aviso de Privacidad",
+    "introduction": "Brandon Uriel Garcia Ramos mejor conocido como imSoft, con domicilio en Guadalajara, Jalisco, México y portal de internet imsoft.io/aviso-de-privacidad, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:",
+    "sections": {
+      "purposesTitle": "¿Para qué fines utilizaremos sus datos personales?",
+      "purposes": "Los datos personales que recabamos de usted, los utilizaremos para las siguientes finalidades que son necesarias para el servicio que solicita:",
+      "purposesList": "Respuesta a mensajes del formulario de contacto, Prestación de cualquier servicio solicitado.",
+      "dataTitle": "¿Qué datos personales utilizaremos para estos fines?",
+      "data": "Para llevar a cabo las finalidades descritas en el presente aviso de privacidad, utilizaremos los siguientes datos personales:",
+      "dataList": "Datos de identificación y contacto, Datos laborales.",
+      "rightsTitle": "¿Cómo puede acceder, rectificar o cancelar sus datos personales, u oponerse a su uso o ejercer la revocación de consentimiento?",
+      "rights": "Usted tiene derecho a conocer qué datos personales tenemos de usted, para qué los utilizamos y las condiciones del uso que les damos (Acceso)...",
+      "requestRequirements": [
+        "Nombre completo del titular.",
+        "Domicilio.",
+        "Teléfono.",
+        "Correo electrónico usado en este sitio web.",
+        "Copia de una identificación oficial adjunta.",
+        "Asunto «Derechos ARCO»."
+      ],
+      "responseDaysTitle": "¿En cuántos días le daremos respuesta a su solicitud?",
+      "responseDays": "5 días.",
+      "responseMediumTitle": "¿Por qué medio le comunicaremos la respuesta a su solicitud?",
+      "responseMedium": "contacto@imsoft.io.",
+      "trackingTitle": "El uso de tecnologías de rastreo en nuestro portal de internet",
+      "tracking": "Le informamos que en nuestra página de internet utilizamos cookies, web beacons u otras tecnologías...",
+      "modificationsTitle": "¿Cómo puede conocer los cambios en este aviso de privacidad?",
+      "modifications": "El presente aviso de privacidad puede sufrir modificaciones, cambios o actualizaciones...",
+      "updated": "Última actualización de este aviso de privacidad: 27/03/2025."
+    }
+  },
+  "notFound": {
+    "title": "¡Oops! No encontramos esta página",
+    "description": "Parece que esta página no existe o ha sido movida. No te preocupes, te ayudamos a volver al camino correcto.",
+    "backHome": "Volver al inicio",
+    "contactSupport": "Contactar soporte"
+  }
+}

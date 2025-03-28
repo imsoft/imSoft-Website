@@ -8,6 +8,7 @@ interface PortfolioCardProps {
   href: string;
   alt: string;
   imageUrl: string;
+  lang: string;
 }
 
 export const PortfolioCard = ({
@@ -16,6 +17,7 @@ export const PortfolioCard = ({
   href,
   alt,
   imageUrl,
+  lang,
 }: PortfolioCardProps) => {
   return (
     <>
@@ -33,7 +35,7 @@ export const PortfolioCard = ({
           <div className="space-y-2">
             <div className="space-y-1 text-lg font-medium leading-6">
               <Link
-                href={href}
+                href={`/${lang}${href}`}
                 aria-label={`Ver más detalles sobre el proyecto ${name}`}
               >
                 <div className="inline-flex">

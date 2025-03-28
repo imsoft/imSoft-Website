@@ -1,67 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const services = [
-  {
-    id: 1,
-    title: "Análisis de Datos",
-    href: "/analisis-de-datos",
-    description: "Toma decisiones basadas en datos, no en suposiciones.",
-    imageUrl:
-      "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706898185/imsoft-images/services/analisis-de-datos-imsoft.jpg",
-  },
-  {
-    id: 2,
-    title: "Aplicaciones Móviles",
-    href: "/aplicaciones-moviles",
-    description: "Conéctate con clientes a través de una app intuitiva.",
-    imageUrl:
-      "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706898396/imsoft-images/services/aplicaciones-moviles-imsoft.jpg",
-  },
-  {
-    id: 3,
-    title: "Aplicaciones Web",
-    href: "/aplicaciones-web",
-    description:
-      "Automatiza y optimiza procesos con soluciones personalizadas.",
-    imageUrl:
-      "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/aplicacion-web-imsoft.jpg",
-  },
-  {
-    id: 4,
-    title: "Campañas en Google Ads",
-    href: "/campanas-en-google-ads",
-    description: "Anuncios optimizados para más conversiones y menor costo.",
-    imageUrl:
-      "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706902047/imsoft-images/services/campan%CC%83as-google-ads-imsoft.jpg",
-  },
-  {
-    id: 5,
-    title: "Desarrollo de Sitios Web",
-    href: "/desarrollo-de-sitios-web",
-    description: "Sitios rápidos, seguros y diseñados para vender.",
-    imageUrl:
-      "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/sitio-web-imsoft.jpg",
-  },
-  {
-    id: 6,
-    title: "Posicionamiento SEO",
-    href: "/posicionamiento-seo",
-    description: "Aparece en Google y atrae más clientes orgánicamente.",
-    imageUrl:
-      "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/posicionamiento-seo-imsoft.jpg",
-  },
-  {
-    id: 7,
-    title: "Tienda en Línea",
-    href: "/tienda-en-linea",
-    description: "Vende 24/7 con una tienda optimizada y eficiente.",
-    imageUrl:
-      "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595027/imsoft-images/services/tienda-en-linea-imsoft.jpg",
-  },
-];
+interface ServicesSectionProps {
+  dictionary: {
+    title: string;
+    description: string;
+    services: {
+      title: string;
+      description: string;
+      imageUrl: string;
+      href: string;
+    }[];
+  };
+  lang: string;
+}
 
-export const ServicesSection = () => {
+export const ServicesSection = ({
+  dictionary: { title, description, services },
+  lang,
+}: ServicesSectionProps) => {
   return (
     <>
       <div
@@ -74,29 +31,28 @@ export const ServicesSection = () => {
               className="text-balance mt-20 text-4xl font-semibold tracking-tight text-primary sm:text-5xl"
               aria-label="Título de la sección de servicios"
             >
-              Impulsa tu negocio hoy
+              {title}
             </h2>
             <p
               className="mt-2 text-lg/8 text-foreground"
               aria-label="Descripción de la sección de servicios"
             >
-              Estrategias digitales diseñadas para hacer crecer tu marca, atraer
-              más clientes y generar resultados reales.
+              {description}
             </p>
           </div>
           <div
             className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-4"
             aria-label="Lista de servicios disponibles"
           >
-            {services.map((service) => (
+            {services.map((service, i) => (
               <div
-                key={service.id}
+                key={i}
                 className="flex flex-col items-start justify-between"
                 aria-label={`Servicio: ${service.title}`}
               >
                 <div className="relative w-full">
                   <Link
-                    href={service.href}
+                     href={`/${lang}${service.href}`}
                     aria-label={`Imagen del servicio: ${service.title}`}
                     className="block"
                   >
@@ -115,7 +71,7 @@ export const ServicesSection = () => {
                   <div className="group relative">
                     <h3 className="mt-3 text-lg/6 font-semibold text-primary group-hover:text-blue-600">
                       <Link
-                        href={service.href}
+                         href={`/${lang}${service.href}`}
                         aria-label={`Enlace al servicio: ${service.title}`}
                       >
                         <span className="absolute inset-0" />

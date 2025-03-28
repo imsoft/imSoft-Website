@@ -12,7 +12,7 @@ export const Post = ({ post }: { post: SanityDocument }) => {
   return (
     <article>
       <main
-        className="container mx-auto prose prose-xl px-4 py-24"
+        className="container mx-auto prose dark:prose-invert prose-xl px-4 py-24"
         aria-label={`Publicación del blog: ${post.title}`}
       >
         <h1 aria-label="Título del artículo">{post.title}</h1>

@@ -2,29 +2,45 @@ import SocialMediaBar from "./SocialMediaBar";
 import Link from "next/link";
 import { CtaButtons } from "./CtaButtons";
 import { Logo } from "./Logo";
+import { CtaButton } from "@/interfaces/CtaButton";
 
-const navigation = {
-  links: [
-    { name: "Inicio", href: "/" },
-    { name: "Servicios", href: "/servicios" },
-    { name: "Portafolio", href: "/portafolio" },
-    { name: "Blog", href: "/blog" },
-    { name: "Historia", href: "/historia" },
-    { name: "Contacto", href: "/contacto" },
-  ],
-  services: [
-    { name: "Análisis de Datos", href: "/analisis-de-datos" },
-    { name: "Aplicaciones Móviles", href: "/aplicaciones-moviles" },
-    { name: "Aplicaciones Web", href: "/aplicaciones-web" },
-    { name: "Campañas en Google Ads", href: "/campanas-en-google-ads" },
-    { name: "Desarrollo de Sitios Web", href: "/desarrollo-de-sitios-web" },
-    { name: "Posicionamiento SEO", href: "/posicionamiento-seo" },
-    { name: "Tienda en Línea", href: "/tienda-en-linea" },
-  ],
-  legal: [{ name: "Aviso de privacidad", href: "/aviso-de-privacidad" }],
-};
+interface FooterProps {
+  dictionary: {
+    cta: {
+      title: string;
+      subtitle: string;
+      description: string;
+    };
+    navigation: {
+      sections: {
+        company: string;
+        services: string;
+        legal: string;
+      };
+      links: {
+        name: string;
+        href: string;
+      }[];
+      services: {
+        name: string;
+        href: string;
+      }[];
+      legal: {
+        name: string;
+        href: string;
+      }[];
+    };
+    copyright: string;
+  };
+  ctaButtons: CtaButton;
+  lang: string;
+}
 
-export const Footer = () => {
+export const Footer = ({
+  dictionary: { cta, navigation, copyright },
+  ctaButtons,
+  lang,
+}: FooterProps) => {
   return (
     <>
       <footer className="bg-background" aria-label="Pie de página del sitio">
@@ -32,20 +48,20 @@ export const Footer = () => {
           <div className="mx-auto max-w-7xl text-center">
             <hgroup aria-label="Llamado a la acción para impulsar negocios">
               <h2 className="text-base/7 font-semibold text-blue-500">
-                Empieza hoy
+                {cta.title}
               </h2>
               <p className="mt-2 text-balance text-4xl font-semibold tracking-tight text-primary sm:text-5xl">
-                Impulsa tu negocio con soluciones digitales efectivas.
+                {cta.subtitle}
               </p>
             </hgroup>
             <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-foreground">
-              Optimiza, automatiza y crece con tecnología diseñada para ti.
+              {cta.description}
             </p>
             <div
               className="mt-8 flex justify-center gap-x-6"
               aria-label="Botones de contacto"
             >
-              <CtaButtons />
+              <CtaButtons dictionary={ctaButtons} lang={lang} />
             </div>
           </div>
           <div className="mt-24 border-t border-border pt-12 xl:grid xl:grid-cols-3 xl:gap-8">
@@ -60,7 +76,7 @@ export const Footer = () => {
                 <div></div>
                 <div className="mt-0">
                   <h3 className="text-sm/6 font-semibold text-foreground">
-                    imSoft
+                    {navigation.sections.company}
                   </h3>
                   <ul
                     role="list"
@@ -70,7 +86,7 @@ export const Footer = () => {
                     {navigation.links.map((item) => (
                       <li key={item.name}>
                         <Link
-                          href={item.href}
+                           href={`/${lang}${item.href}`}
                           className="text-sm/6 text-muted-foreground hover:text-primary"
                         >
                           {item.name}
@@ -83,13 +99,13 @@ export const Footer = () => {
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
                   <h3 className="text-sm/6 font-semibold text-foreground">
-                    Servicios
+                    {navigation.sections.services}
                   </h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.services.map((item) => (
                       <li key={item.name}>
                         <Link
-                          href={item.href}
+                           href={`/${lang}${item.href}`}
                           className="text-sm/6 text-muted-foreground hover:text-primary"
                           aria-label={`Enlace al servicio de ${item.name}`}
                         >
@@ -101,13 +117,13 @@ export const Footer = () => {
                 </div>
                 <div className="mt-10 md:mt-0">
                   <h3 className="text-sm/6 font-semibold text-foreground">
-                    Legal
+                    {navigation.sections.legal}
                   </h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.legal.map((item) => (
                       <li key={item.name}>
                         <Link
-                          href={item.href}
+                           href={`/${lang}${item.href}`}
                           className="text-sm/6 text-muted-foreground hover:text-primary"
                           aria-label={`Enlace a ${item.name}`}
                         >
@@ -127,7 +143,7 @@ export const Footer = () => {
               />
             </div>
             <p className="mt-8 text-sm/6 text-muted-foreground md:order-1 md:mt-0">
-              &copy; 2025 imSoft, Inc. Todos los derechos reservados.
+              &copy; {new Date().getFullYear()} {copyright}
             </p>
           </div>
         </div>

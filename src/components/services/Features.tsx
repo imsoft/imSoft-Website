@@ -1,11 +1,13 @@
 import { Check } from "lucide-react";
 import { CtaButtons } from "../CtaButtons";
+import { CtaButton } from "@/interfaces/CtaButton";
 
 interface ServiceFeaturesProps {
   service: string;
   title: string;
   description: string;
   features: Feature[];
+  ctaButtons: CtaButton;
 }
 
 interface Feature {
@@ -18,6 +20,7 @@ export const ServiceFeatures = ({
   title,
   description,
   features,
+  ctaButtons,
 }: ServiceFeaturesProps) => {
   return (
     <>
@@ -77,7 +80,7 @@ export const ServiceFeatures = ({
             className="mt-10 flex items-center justify-center gap-x-6"
             aria-label="Botones de llamado a la acción"
           >
-            <CtaButtons />
+            <CtaButtons dictionary={ctaButtons} />
           </div>
         </div>
       </div>
