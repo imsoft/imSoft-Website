@@ -58,7 +58,7 @@ export const HeroSection = ({
                 className="mt-10 flex items-center justify-center gap-x-6"
                 aria-label="Botones de acción principal"
               >
-                <CtaButtons dictionary={ctaButtons} lang={lang} showServices />
+                <CtaButtons dictionary={ctaButtons} />
               </div>
             </div>
           </div>

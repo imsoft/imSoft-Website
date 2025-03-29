@@ -61,7 +61,7 @@ export const Footer = ({
               className="mt-8 flex justify-center gap-x-6"
               aria-label="Botones de contacto"
             >
-              <CtaButtons dictionary={ctaButtons} lang={lang} />
+              <CtaButtons dictionary={ctaButtons} />
             </div>
           </div>
           <div className="mt-24 border-t border-border pt-12 xl:grid xl:grid-cols-3 xl:gap-8">
