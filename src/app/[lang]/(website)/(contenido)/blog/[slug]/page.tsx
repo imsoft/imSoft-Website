@@ -1,21 +1,23 @@
+// ✅ src/app/[lang]/(website)/(contenido)/blog/[slug]/page.tsx
+
 import { SanityDocument } from "@sanity/client";
-import { postPathsQuery, postQuery } from "@/sanity/lib/queries";
+import { postQuery } from "@/sanity/lib/queries";
 import { sanityFetch } from "@/sanity/lib/fetch";
-import { client } from "@/sanity/lib/client";
 import { Post } from "@/components/blog/Post";
+import { Lang } from "@/types/Lang";
 
 export const revalidate = 60;
 
-export const generateStaticParams = async () => {
-  const posts = await client.fetch(postPathsQuery);
-  return posts;
-};
+export const generateMetadata = async ({
+  params,
+}: {
+  params: Promise<{ lang: Lang; slug: string }>;
+}) => {
+  const { lang, slug } = await params;
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const generateMetadata = async ({ params }: { params: any }) => {
   const post = await sanityFetch<SanityDocument>({
     query: postQuery,
-    params,
+    params: { slug, lang },
   });
 
   return {
@@ -25,11 +27,16 @@ export const generateMetadata = async ({ params }: { params: any }) => {
   };
 };
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const PostPage = async ({ params }: { params: any }) => {
+const PostPage = async ({
+  params,
+}: {
+  params: Promise<{ lang: Lang; slug: string }>;
+}) => {
+  const { lang, slug } = await params;
+
   const post = await sanityFetch<SanityDocument>({
     query: postQuery,
-    params,
+    params: { slug, lang },
   });
 
   return <Post post={post} aria-label="Contenido del artículo seleccionado" />;

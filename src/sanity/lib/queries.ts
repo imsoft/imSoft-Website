@@ -20,6 +20,12 @@ export const postQuery = groq`*[_type == "post" && slug.current == $slug][0]{
 export const postPathsQuery = groq`*[_type == "post" && defined(slug.current)][]{
     "params": { "slug": slug.current }
   }`;
+// export const postPathsQuery = groq`
+//   *[_type == "post" && defined(slug.current) && defined(lang)]{
+//     "slug": slug.current,
+//     "lang": lang
+//   }
+// `;
 
 // Get all categories
 export const categoriesQuery = groq`*[_type == "category"]{
