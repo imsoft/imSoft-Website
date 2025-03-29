@@ -1,0 +1,453 @@
+{
+  "header": {
+    "navigation": [
+      { "name": "首页", "href": "/" },
+      { "name": "服务", "href": "/servicios" },
+      { "name": "作品集", "href": "/portafolio" },
+      { "name": "博客", "href": "/blog" },
+      { "name": "历史", "href": "/historia" },
+      { "name": "联系", "href": "/contacto" }
+    ],
+    "mobileMenuTitle": "imSoft",
+    "mobileMenuDescription": "将想法转化为软件"
+  },
+  "footer": {
+    "cta": {
+      "title": "今天开始",
+      "subtitle": "通过有效的数字化解决方案推动您的业务发展。",
+      "description": "通过为您设计的技术进行优化、自动化和成长。"
+    },
+    "navigation": {
+      "sections": {
+        "company": "imSoft",
+        "services": "服务",
+        "legal": "法律"
+      },
+      "links": [
+        { "name": "首页", "href": "/" },
+        { "name": "服务", "href": "/servicios" },
+        { "name": "作品集", "href": "/portafolio" },
+        { "name": "博客", "href": "/blog" },
+        { "name": "历史", "href": "/historia" },
+        { "name": "联系", "href": "/contacto" }
+      ],
+      "services": [
+        { "name": "数据分析", "href": "/analisis-de-datos" },
+        { "name": "移动应用程序", "href": "/aplicaciones-moviles" },
+        { "name": "Web应用程序", "href": "/aplicaciones-web" },
+        { "name": "Google Ads广告活动", "href": "/campanas-en-google-ads" },
+        { "name": "网站开发", "href": "/desarrollo-de-sitios-web" },
+        { "name": "SEO优化", "href": "/posicionamiento-seo" },
+        { "name": "在线商店", "href": "/tienda-en-linea" }
+      ],
+      "legal": [{ "name": "隐私声明", "href": "/aviso-de-privacidad" }]
+    },
+    "copyright": "imSoft, Inc. 版权所有。"
+  },
+  "randomServiceBanner": {
+    "text": "了解更多关于",
+    "linkText": "这里",
+    "services": [
+      { "name": "数据分析", "href": "/analisis-de-datos" },
+      { "name": "移动应用程序", "href": "/aplicaciones-moviles" },
+      { "name": "Web应用程序", "href": "/aplicaciones-web" },
+      { "name": "Google Ads广告活动", "href": "/campanas-en-google-ads" },
+      { "name": "网站开发", "href": "/desarrollo-de-sitios-web" },
+      { "name": "SEO优化", "href": "/posicionamiento-seo" },
+      { "name": "在线商店", "href": "/tienda-en-linea" }
+    ]
+  },
+  "ctaButtons": {
+    "whatsapp": "WhatsApp",
+    "email": "电子邮件",
+    "services": "服务",
+    "message": "👋 你好，imSoft，你好吗？我想了解更多关于你们的服务。我希望能收到详细的信息和建议，以找到最适合我业务的解决方案。谢谢！🚀"
+  },
+  "homePage": {
+    "heroSection": {
+      "title": "将想法转化为软件",
+      "description": [
+        "在 imSoft，我们通过创新技术和高效的软件开发将您的愿景变为现实。",
+        "📈 更多流量。更多客户。更多增长。"
+      ]
+    },
+    "featuresSection": {
+      "headline": "区别所在",
+      "title": "让你脱颖而出的策略",
+      "description": "旨在让你超越竞争对手的数字化解决方案。创新、高效和推动业务增长的结果。",
+      "features": [
+        {
+          "name": "量身定制的技术",
+          "description": "根据您的业务需求定制的数字解决方案。"
+        },
+        {
+          "name": "无限增长",
+          "description": "可随你业务一起发展的可扩展技术。"
+        },
+        {
+          "name": "验证的成果",
+          "description": "经验证的经验推动您的成功。"
+        },
+        {
+          "name": "智能策略",
+          "description": "通过数据与分析最大化您的投资回报。"
+        },
+        {
+          "name": "持续创新",
+          "description": "为您的业务提供前沿技术。"
+        },
+        {
+          "name": "可靠的支持",
+          "description": "为您的项目增长提供支持与帮助。"
+        }
+      ]
+    },
+    "servicesSection": {
+      "title": "今天就推动你的业务发展",
+      "description": "旨在帮助您的品牌增长、吸引更多客户并产生真正成果的数字策略。",
+      "services": [
+        {
+          "title": "数据分析",
+          "description": "基于数据做出决策，而不是假设。",
+          "href": "/analisis-de-datos",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706898185/imsoft-images/services/analisis-de-datos-imsoft.jpg"
+        },
+        {
+          "title": "移动应用程序",
+          "description": "通过直观的应用程序与客户建立联系。",
+          "href": "/aplicaciones-moviles",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706898396/imsoft-images/services/aplicaciones-moviles-imsoft.jpg"
+        },
+        {
+          "title": "Web应用程序",
+          "description": "通过定制化解决方案实现自动化和优化流程。",
+          "href": "/aplicaciones-web",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/aplicacion-web-imsoft.jpg"
+        },
+        {
+          "title": "Google Ads广告活动",
+          "description": "优化广告以获得更多转化并降低成本。",
+          "href": "/campanas-en-google-ads",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706902047/imsoft-images/services/campan%CC%83as-google-ads-imsoft.jpg"
+        },
+        {
+          "title": "网站开发",
+          "description": "快速、安全、旨在销售的网站。",
+          "href": "/desarrollo-de-sitios-web",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/sitio-web-imsoft.jpg"
+        },
+        {
+          "title": "SEO优化",
+          "description": "在Google上出现并有机地吸引更多客户。",
+          "href": "/posicionamiento-seo",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/posicionamiento-seo-imsoft.jpg"
+        },
+        {
+          "title": "在线商店",
+          "description": "通过优化高效的商店24/7销售。",
+          "href": "/tienda-en-linea",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595027/imsoft-images/services/tienda-en-linea-imsoft.jpg"
+        }
+      ]
+    }
+  },
+  "company": {
+    "portfolio": {
+      "title": "改变业务的项目",
+      "description": "了解我们如何通过创新的数字解决方案帮助企业成长。每一个项目都是通过技术、策略和激情创造的成功故事。",
+      "portfolioInfo": [
+        {
+          "name": "BemästraDental",
+          "type": "网站 👨‍💻",
+          "url": "https://xn--bemstradental-dfb.com/",
+          "alt": "网站 - BemästraDental - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595313/imsoft-images/portfolio/website/sitio-web-dental-welt.png"
+        },
+        {
+          "name": "Infinito Empresarial y Aduanero",
+          "type": "网站 👨‍💻",
+          "url": "http://infinitoad.com/",
+          "alt": "网站 - Infinito Empresarial y Aduanero - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595314/imsoft-images/portfolio/website/sitio-web-infinito-empresarial-y-aduanero.png"
+        },
+        {
+          "name": "Profibra",
+          "type": "网站 👨‍💻",
+          "url": "http://profibra.com.mx/",
+          "alt": "网站 - Profibra - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595314/imsoft-images/portfolio/website/sitio-web-profibra.png"
+        },
+        {
+          "name": "Club De Estirpe",
+          "type": "网站 👨‍💻",
+          "url": "http://clubdeestirpe.com/",
+          "alt": "网站 - Club De Estirpe - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595311/imsoft-images/portfolio/website/sitio-web-club-de-estirpe-imsoft.png"
+        },
+        {
+          "name": "Construcción Inteligente",
+          "type": "网站 👨‍💻",
+          "url": "https://construccioninteligente.mx/",
+          "alt": "网站 - Construcción Inteligente - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595313/imsoft-images/portfolio/website/sitio-web-construccion-inteligente-imsoft.png"
+        },
+        {
+          "name": "Ferreacabados Jalisco",
+          "type": "网站 👨‍💻",
+          "url": "https://ferrejalisco.mx/",
+          "alt": "网站 - Ferreacabados Jalisco - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595314/imsoft-images/portfolio/website/sitio-web-ferreacabdos-jalisco-imsoft.png"
+        },
+        {
+          "name": "JTP Logistics",
+          "type": "网站 👨‍💻",
+          "url": "https://www.jtp.com.mx/",
+          "alt": "网站 - JTP Logistics - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595314/imsoft-images/portfolio/website/sitio-web-jtp-logistics-imsoft.png"
+        },
+        {
+          "name": "Constructora RM",
+          "type": "网站 👨‍💻",
+          "url": "https://constructorarm.mx/",
+          "alt": "网站 - Constructora RM - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595312/imsoft-images/portfolio/website/sitio-web-constructorarm-imsoft.png"
+        },
+        {
+          "name": "Cursumi",
+          "type": "网站 👨‍💻",
+          "url": "https://cursumi.com/",
+          "alt": "网站 - Cursumi - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595491/imsoft-images/portfolio/website-pro/sitio-web-pro-cursumi.png"
+        }
+      ]
+    },
+    "history": {
+      "tag": "我们的历史",
+      "title": "以目标为导向的创新，具有影响力的技术",
+      "paragraphs": [
+        "imSoft 诞生于一个明确的愿景：帮助企业和创业者利用技术成长并在市场中脱颖而出。它从一个梦想开始，很快就发展成一个致力于创新和数字效率的团队。",
+        "从第一天起，我们的目标就是创造真正能产生差异的解决方案。我们不仅开发软件，还创建推动业务并将想法转化为实际成果的工具。",
+        "每一个项目都是一个挑战，但同时也是一个学习、改进和与客户一起成长的机会。我们相信技术是通向新机遇的桥梁，我们的承诺是确保每个解决方案都具备直观性、高效性和可扩展性。",
+        "imSoft 的未来是明确的：继续创新，继续学习，并继续创造帮助更多企业实现其最大潜力的数字化解决方案。我们对未来充满期待，并希望你成为这个故事的一部分。"
+      ],
+      "imageAlt": "imSoft 的历史"
+    },
+    "contact": {
+      "title": "让我们谈谈你的下一个重大项目",
+      "description": "我们随时准备帮助你将你的想法转化为强大的数字化解决方案。请联系我们，一起开始工作。"
+    }
+  },
+  "content": {
+    "blogPage": {
+      "title": "我们的博客",
+      "description": "探索利用技术增强您的业务的策略、趋势和建议。"
+    }
+  },
+  "services": {
+    "dataAnalysis": {
+      "service": "智能数据分析",
+      "title": "将信息转化为战略性增长",
+      "description": "从数据中提取价值，并将每一个决策转化为改进业务的机会。",
+      "features": [
+        {
+          "name": "基于数据的决策",
+          "description": "通过精准且实时的信息做出战略决策。"
+        },
+        {
+          "name": "流程优化",
+          "description": "通过智能分析提高运营效率并降低成本。"
+        },
+        {
+          "name": "预测与趋势",
+          "description": "预测市场变化，领先于竞争对手。"
+        },
+        {
+          "name": "详细报告",
+          "description": "提供清晰易懂的可视化报告，以推动业务发展。"
+        }
+      ],
+      "message": "👋 你好，imSoft，你好吗？我想了解更多关于你们的数据分析服务。 📊 我想了解如何利用我的数据来改进我的策略并做出更好的决策。"
+    },
+    "mobileApplications": {
+      "service": "定制化移动应用程序",
+      "title": "随时随地与客户建立联系",
+      "description": "通过直观、快速且设计优良的移动应用程序来转变您的业务，增加客户忠诚度并提高销售。",
+      "features": [
+        {
+          "name": "优化的用户体验",
+          "description": "直观流畅的设计提供最佳用户体验。"
+        },
+        {
+          "name": "实时通知",
+          "description": "通过个性化的提醒让客户保持互动与参与。"
+        },
+        {
+          "name": "系统集成",
+          "description": "将您的应用程序与支付平台、数据库等系统连接。"
+        },
+        {
+          "name": "性能与安全性",
+          "description": "快速、安全并为任何移动设备优化的应用程序。"
+        }
+      ],
+      "message": "👋 你好，imSoft，你好吗？我对开发移动应用程序感兴趣。 📱 我想了解开发过程、功能和成本。"
+    },
+    "webApplications": {
+      "service": "定制化Web应用程序",
+      "title": "通过定制技术自动化和优化您的业务",
+      "description": "我们开发安全且可扩展的Web应用程序，以提高您的企业效率和生产力。",
+      "features": [
+        {
+          "name": "定制开发",
+          "description": "根据您的业务需求与目标量身打造解决方案。"
+        },
+        {
+          "name": "确保可扩展性",
+          "description": "为您的企业成长而设计的应用程序。"
+        },
+        {
+          "name": "安全性与性能",
+          "description": "先进的保护与优化，确保速度与稳定性。"
+        },
+        {
+          "name": "灵活的集成",
+          "description": "与工具与系统的连接，提高效率。"
+        }
+      ],
+      "message": "👋 你好，imSoft，你好吗？我需要为我的业务开发一个Web应用程序。 🔧 我想了解可行的选项，以及如何帮助我提高企业效率。"
+    },
+    "googleAdsCampaigns": {
+      "service": "Google Ads广告活动",
+      "title": "通过优化的广告在正确的时间吸引客户",
+      "description": "通过有效的Google Ads策略触达理想受众，并最大化转化率。",
+      "features": [
+        {
+          "name": "精准定位",
+          "description": "在正确的时间将广告展示给正确的人群。"
+        },
+        {
+          "name": "持续优化",
+          "description": "调整您的广告活动以提高性能并降低成本。"
+        },
+        {
+          "name": "引人注目的广告",
+          "description": "优化的文案与设计，以增加点击与转化。"
+        },
+        {
+          "name": "可测量的结果",
+          "description": "实时数据分析，用于调整与提升投资回报率。"
+        }
+      ],
+      "message": "👋 你好，imSoft，你好吗？我对为我的业务开展Google Ads广告活动感兴趣。 📢 我想了解你们如何帮助我吸引更多客户并优化广告投资。"
+    },
+    "websiteDevelopment": {
+      "service": "网站开发",
+      "title": "将您的网站转化为销售机器",
+      "description": "我们创建快速、安全且优化的网站，以帮助您吸引更多客户并提升业务。",
+      "features": [
+        {
+          "name": "美观且功能性设计",
+          "description": "优化的用户体验，帮助将访客转化为客户。"
+        },
+        {
+          "name": "速度与性能",
+          "description": "快速高效的网站，以改善用户体验与SEO。"
+        },
+        {
+          "name": "高级安全性",
+          "description": "抵御攻击与漏洞的保护，确保网站可靠性。"
+        },
+        {
+          "name": "集成SEO",
+          "description": "从第一天起就优化您的网站，以便在Google上排名更高。"
+        }
+      ],
+      "message": "👋 你好，imSoft，你好吗？我对为我的业务开发一个网站感兴趣。 💻 我想了解可选方案与功能，以提升我的数字化形象。"
+    },
+    "seoPositioning": {
+      "service": "SEO战略优化",
+      "title": "让您的业务出现在搜索结果的顶端",
+      "description": "通过有效且个性化的SEO策略提升您的Google可见性并吸引更多客户。",
+      "features": [
+        {
+          "name": "站内优化",
+          "description": "优化网站结构、速度与内容，以获得更高的排名。"
+        },
+        {
+          "name": "内容策略",
+          "description": "创建优化的文章与页面，以持续吸引有机流量。"
+        },
+        {
+          "name": "高级技术SEO",
+          "description": "错误修复、索引优化，让Google更好地理解您的网站。"
+        },
+        {
+          "name": "智能外链建设",
+          "description": "获取高质量链接，以提高网站的权威性。"
+        }
+      ],
+      "message": "👋 你好，imSoft，你好吗？我想提升我的业务在Google上的排名。 🔍 我想了解如何增加我的流量与搜索引擎的可见性。"
+    },
+    "onlineStores": {
+      "service": "优化的在线商店",
+      "title": "通过强大的在线商店全天候销售",
+      "description": "通过安全、快速且优化的在线商店，将您的业务带入数字化世界，最大化销售额。",
+      "features": [
+        {
+          "name": "优化的购买流程",
+          "description": "通过直观高效的设计简化购买体验。"
+        },
+        {
+          "name": "安全且灵活的支付",
+          "description": "支持多种支付方式，并确保安全可靠的交易。"
+        },
+        {
+          "name": "库存管理",
+          "description": "从任何设备实时管理产品、库存与订单。"
+        },
+        {
+          "name": "SEO与可见性",
+          "description": "在搜索引擎上排名靠前，吸引更多客户。"
+        }
+      ],
+      "message": "👋 你好，imSoft，你好吗？我想了解关于创建在线商店的信息。 🛒 我想在线销售我的产品，并需要了解你们提供的计划与功能。"
+    }
+  },
+  "legal": {
+    "title": "隐私声明",
+    "introduction": "Brandon Uriel Garcia Ramos，又称为 imSoft，地址位于墨西哥哈利斯科州瓜达拉哈拉市，其网站为 imsoft.io/aviso-de-privacidad，是您个人数据的使用和保护的负责人，关于这一点，我们向您提供以下信息：",
+    "sections": {
+      "purposesTitle": "我们将为哪些目的使用您的个人数据？",
+      "purposes": "我们从您处收集的个人数据将用于以下与您请求的服务必要的目的：",
+      "purposesList": "联系表单信息回复，提供任何请求的服务。",
+      "dataTitle": "我们将为这些目的使用哪些个人数据？",
+      "data": "为实现本隐私声明中描述的目的，我们将使用以下个人数据：",
+      "dataList": "身份和联系信息，工作信息。",
+      "rightsTitle": "您如何访问、修改或删除您的个人数据，或反对其使用或行使撤销同意的权利？",
+      "rights": "您有权了解我们拥有您的哪些个人数据，我们如何使用它们，以及我们对它们的使用条件（访问）...",
+      "requestRequirements": [
+        "持有人的全名。",
+        "地址。",
+        "电话。",
+        "在此网站上使用的电子邮件。",
+        "附加的官方身份证副本。",
+        "主题 «ARCO 权利»。"
+      ],
+      "responseDaysTitle": "我们将在多少天内回复您的请求？",
+      "responseDays": "5 天。",
+      "responseMediumTitle": "我们将通过什么方式告知您请求的答复？",
+      "responseMedium": "contacto@imsoft.io。",
+      "trackingTitle": "我们网站上使用的追踪技术",
+      "tracking": "我们告知您，我们的网站使用 cookies、网络信标或其他技术...",
+      "modificationsTitle": "您如何了解本隐私声明的更改？",
+      "modifications": "本隐私声明可能会进行修改、更改或更新...",
+      "updated": "本隐私声明的最后更新时间：2025年3月27日。"
+    }
+  },
+  "notFound": {
+    "title": "哎呀！我们找不到这个页面",
+    "description": "看起来这个页面不存在或已被移动。别担心，我们帮你回到正确的路径。",
+    "backHome": "返回首页",
+    "contactSupport": "联系支持"
+  }
+}

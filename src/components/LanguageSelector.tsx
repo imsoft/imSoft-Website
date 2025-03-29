@@ -12,6 +12,7 @@ import {
 
 const languages = [
   { code: "es", label: "Español", flag: "🇲🇽" },
+  { code: "zh", label: "中文 (简体)", flag: "🇨🇳" },
   { code: "en", label: "English", flag: "🇺🇸" },
   { code: "ru", label: "Русский", flag: "🇷🇺" },
 ];

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const locales = ["en", "es", "ru"];
+const locales = ["en", "es", "ru", "zh"];
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function getLocale(request: any): string {

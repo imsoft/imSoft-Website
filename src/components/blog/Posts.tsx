@@ -10,7 +10,13 @@ interface PostsProps {
 export const Posts = ({ posts = [], lang }: PostsProps) => {
   const convertDate = (date: string) => {
     return new Date(date).toLocaleDateString(
-      lang === "en" ? "en-US" : lang === "ru" ? "ru-RU" : "es-MX",
+      lang === "en"
+        ? "en-US"
+        : lang === "ru"
+        ? "ru-RU"
+        : lang === "zh"
+        ? "zh-CN"
+        : "es-MX",
       {
         day: "numeric",
         month: "short",
