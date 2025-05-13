@@ -20,7 +20,7 @@ const ContactPage = async ({ params }: { params: Promise<{ lang: Lang }> }) => {
         <div className="relative isolate bg-background">
           <div className="mx-auto mt-14 grid max-w-7xl grid-cols-1 lg:grid-cols-2">
             <ContactInfo dictionary={t.company.contact} />
-            <ContactForm dictionary={t.company.contact.forms} />
+            <ContactForm dictionary={t.company.contact.forms} lang={lang} />
           </div>
         </div>
       </main>

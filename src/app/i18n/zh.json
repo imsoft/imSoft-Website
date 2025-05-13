@@ -254,6 +254,7 @@
         "privacyPolicy": "我已閱讀並接受",
         "privacyLink": "隱私政策",
         "privacyError": "您必須接受隱私政策才能繼續。",
+        "loadingSubmit": "发送消息",
         "submit": "發送訊息",
         "successMessage": {
           "title": "消息已發送！",
@@ -263,6 +264,13 @@
           "title": "發送錯誤",
           "description": "發送表單時出現問題。請稍後再試。"
         }
+      },
+      "confirmationEmail": {
+        "subject": "感謝您的聯繫 - imSoft",
+        "greeting": "您好，{name}：",
+        "message": "感謝您的聯繫。我們已收到您的消息，將盡快回覆您。",
+        "buttonText": "訪問 imSoft",
+        "footer": "© {year} imSoft. 版權所有。"
       }
     }
   },

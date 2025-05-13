@@ -303,6 +303,7 @@
         "privacyPolicy": "He leído y acepto el",
         "privacyLink": "Aviso de Privacidad",
         "privacyError": "Debes aceptar el aviso de privacidad para continuar.",
+        "loadingSubmit": "Enviar mensaje",
         "submit": "Enviar mensaje",
         "successMessage": {
           "title": "¡Mensaje enviado!",
@@ -312,6 +313,13 @@
           "title": "Error al enviar",
           "description": "Hubo un problema al enviar el formulario. Por favor, intenta más tarde."
         }
+      },
+      "confirmationEmail": {
+        "subject": "Gracias por contactarnos - imSoft",
+        "greeting": "Hola {name},",
+        "message": "Gracias por contactarnos. Hemos recibido tu mensaje y te responderemos lo antes posible.",
+        "buttonText": "Visitar imSoft",
+        "footer": "© {year} imSoft. Todos los derechos reservados."
       }
     }
   },

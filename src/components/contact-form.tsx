@@ -29,6 +29,7 @@ interface ContactFormProps {
     privacyPolicy: string;
     privacyLink: string;
     privacyError: string;
+    loadingSubmit: string;
     submit: string;
     successMessage: {
       title: string;
@@ -39,6 +40,7 @@ interface ContactFormProps {
       description: string;
     };
   };
+  lang: string;
 }
 
 const formSchema = z.object({
@@ -64,7 +66,7 @@ const formSchema = z.object({
 
 type FormValues = z.infer<typeof formSchema>;
 
-export function ContactForm({ dictionary }: ContactFormProps) {
+export function ContactForm({ dictionary, lang }: ContactFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const form = useForm<FormValues>({
@@ -82,7 +84,7 @@ export function ContactForm({ dictionary }: ContactFormProps) {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("/api/send-email", {
+      const response = await fetch(`/api/send-email`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -90,6 +92,7 @@ export function ContactForm({ dictionary }: ContactFormProps) {
           email: data.email,
           phone: data.phone,
           message: data.message,
+          lang: lang || "en",
         }),
       });
 
@@ -265,10 +268,10 @@ export function ContactForm({ dictionary }: ContactFormProps) {
                 {isSubmitting ? (
                   <>
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    {dictionary.submit}
+                    {dictionary.loadingSubmit}
                   </>
                 ) : (
-                  "Enviar mensaje"
+                  dictionary.submit
                 )}
               </Button>
             </div>
