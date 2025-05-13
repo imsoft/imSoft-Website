@@ -47,18 +47,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const staticPages = [
     { path: "", priority: 1 },
-    { path: "contacto", priority: 0.8 },
-    { path: "historia", priority: 0.8 },
-    { path: "portafolio", priority: 0.8 },
-    { path: "servicios", priority: 0.8 },
-    { path: "aviso-de-privacidad", priority: 0.8 },
-    { path: "analisis-de-datos", priority: 0.8 },
-    { path: "aplicaciones-moviles", priority: 0.8 },
-    { path: "aplicaciones-web", priority: 0.8 },
-    { path: "campanas-en-google-ads", priority: 0.8 },
-    { path: "desarrollo-de-sitios-web", priority: 0.8 },
-    { path: "posicionamiento-seo", priority: 0.8 },
-    { path: "tienda-en-linea", priority: 0.8 },
+    { path: "contact", priority: 0.8 },
+    { path: "our-story", priority: 0.8 },
+    { path: "portfolio", priority: 0.8 },
+    { path: "services", priority: 0.8 },
+    { path: "privacy-notice", priority: 0.8 },
+    { path: "data-analysis", priority: 0.8 },
+    { path: "mobile-apps", priority: 0.8 },
+    { path: "web-applications", priority: 0.8 },
+    { path: "google-ads-campaigns", priority: 0.8 },
+    { path: "website-development", priority: 0.8 },
+    { path: "seo-optimization", priority: 0.8 },
+    { path: "online-store", priority: 0.8 },
+    { path: "ai-and-ml-consulting", priority: 0.8 },
   ];
 
   const staticEntries: MetadataRoute.Sitemap = staticPages.flatMap(page => {

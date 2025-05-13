@@ -2,11 +2,11 @@
   "header": {
     "navigation": [
       { "name": "首页", "href": "/" },
-      { "name": "服务", "href": "/servicios" },
-      { "name": "作品集", "href": "/portafolio" },
+      { "name": "服务", "href": "/services" },
+      { "name": "作品集", "href": "/portfolio" },
       { "name": "博客", "href": "/blog" },
-      { "name": "历史", "href": "/historia" },
-      { "name": "联系", "href": "/contacto" }
+      { "name": "历史", "href": "/our-story" },
+      { "name": "联系", "href": "/contact" }
     ],
     "mobileMenuTitle": "imSoft",
     "mobileMenuDescription": "将想法转化为软件"
@@ -25,22 +25,23 @@
       },
       "links": [
         { "name": "首页", "href": "/" },
-        { "name": "服务", "href": "/servicios" },
-        { "name": "作品集", "href": "/portafolio" },
+        { "name": "服务", "href": "/services" },
+        { "name": "作品集", "href": "/portfolio" },
         { "name": "博客", "href": "/blog" },
-        { "name": "历史", "href": "/historia" },
-        { "name": "联系", "href": "/contacto" }
+        { "name": "历史", "href": "/our-story" },
+        { "name": "联系", "href": "/contact" }
       ],
       "services": [
-        { "name": "数据分析", "href": "/analisis-de-datos" },
-        { "name": "移动应用程序", "href": "/aplicaciones-moviles" },
-        { "name": "Web应用程序", "href": "/aplicaciones-web" },
-        { "name": "Google Ads广告活动", "href": "/campanas-en-google-ads" },
-        { "name": "网站开发", "href": "/desarrollo-de-sitios-web" },
-        { "name": "SEO优化", "href": "/posicionamiento-seo" },
-        { "name": "在线商店", "href": "/tienda-en-linea" }
+        { "name": "数据分析", "href": "/data-analysis" },
+        { "name": "移动应用程序", "href": "/mobile-apps" },
+        { "name": "Web应用程序", "href": "/web-applications" },
+        { "name": "Google Ads广告活动", "href": "/google-ads-campaigns" },
+        { "name": "网站开发", "href": "/website-development" },
+        { "name": "SEO优化", "href": "/seo-optimization" },
+        { "name": "在线商店", "href": "/online-store" },
+        { "name": "人工智慧和機器學習諮詢", "href": "/ai-and-ml-consulting" }
       ],
-      "legal": [{ "name": "隐私声明", "href": "/aviso-de-privacidad" }]
+      "legal": [{ "name": "隐私声明", "href": "/privacy-notice" }]
     },
     "copyright": "imSoft, Inc. 版权所有。"
   },
@@ -48,13 +49,14 @@
     "text": "了解更多关于",
     "linkText": "这里",
     "services": [
-      { "name": "数据分析", "href": "/analisis-de-datos" },
-      { "name": "移动应用程序", "href": "/aplicaciones-moviles" },
-      { "name": "Web应用程序", "href": "/aplicaciones-web" },
-      { "name": "Google Ads广告活动", "href": "/campanas-en-google-ads" },
-      { "name": "网站开发", "href": "/desarrollo-de-sitios-web" },
-      { "name": "SEO优化", "href": "/posicionamiento-seo" },
-      { "name": "在线商店", "href": "/tienda-en-linea" }
+      { "name": "数据分析", "href": "/data-analysis" },
+      { "name": "移动应用程序", "href": "/mobile-apps" },
+      { "name": "Web应用程序", "href": "/web-applications" },
+      { "name": "Google Ads广告活动", "href": "/google-ads-campaigns" },
+      { "name": "网站开发", "href": "/website-development" },
+      { "name": "SEO优化", "href": "/seo-optimization" },
+      { "name": "在线商店", "href": "/online-store" },
+      { "name": "人工智慧和機器學習諮詢", "href": "/ai-and-ml-consulting" }
     ]
   },
   "ctaButtons": {
@@ -109,44 +111,50 @@
         {
           "title": "数据分析",
           "description": "基于数据做出决策，而不是假设。",
-          "href": "/analisis-de-datos",
+          "href": "/data-analysis",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706898185/imsoft-images/services/analisis-de-datos-imsoft.jpg"
         },
         {
           "title": "移动应用程序",
           "description": "通过直观的应用程序与客户建立联系。",
-          "href": "/aplicaciones-moviles",
+          "href": "/mobile-apps",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706898396/imsoft-images/services/aplicaciones-moviles-imsoft.jpg"
         },
         {
           "title": "Web应用程序",
           "description": "通过定制化解决方案实现自动化和优化流程。",
-          "href": "/aplicaciones-web",
+          "href": "/web-applications",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/aplicacion-web-imsoft.jpg"
         },
         {
           "title": "Google Ads广告活动",
           "description": "优化广告以获得更多转化并降低成本。",
-          "href": "/campanas-en-google-ads",
+          "href": "/google-ads-campaigns",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706902047/imsoft-images/services/campan%CC%83as-google-ads-imsoft.jpg"
         },
         {
           "title": "网站开发",
           "description": "快速、安全、旨在销售的网站。",
-          "href": "/desarrollo-de-sitios-web",
+          "href": "/website-development",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/sitio-web-imsoft.jpg"
         },
         {
           "title": "SEO优化",
           "description": "在Google上出现并有机地吸引更多客户。",
-          "href": "/posicionamiento-seo",
+          "href": "/seo-optimization",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/posicionamiento-seo-imsoft.jpg"
         },
         {
           "title": "在线商店",
           "description": "通过优化高效的商店24/7销售。",
-          "href": "/tienda-en-linea",
+          "href": "/online-store",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595027/imsoft-images/services/tienda-en-linea-imsoft.jpg"
+        },
+        {
+          "title": "人工智慧和機器學習諮詢",
+          "description": "通過人工智慧和機器學習改變您的業務。",
+          "href": "/ai-and-ml-consulting",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706902047/imsoft-images/services/consultoria-en-ia-y-machine-learning-imsoft.jpg"
         }
       ]
     }
@@ -233,8 +241,29 @@
       "imageAlt": "imSoft 的历史"
     },
     "contact": {
-      "title": "让我们谈谈你的下一个重大项目",
-      "description": "我们随时准备帮助你将你的想法转化为强大的数字化解决方案。请联系我们，一起开始工作。"
+      "ariaLabel": "與 imSoft 開始項目的聯繫頁面",
+      "title": "聯繫我們",
+      "description": "我們隨時為您提供幫助。填寫表格，我們將盡快與您聯繫，解答您的疑問並提供最佳解決方案。",
+      "phoneLabel": "電話",
+      "emailLabel": "電子郵件",
+      "forms": {
+        "name": "全名",
+        "email": "電子郵件地址",
+        "phone": "電話",
+        "message": "訊息",
+        "privacyPolicy": "我已閱讀並接受",
+        "privacyLink": "隱私政策",
+        "privacyError": "您必須接受隱私政策才能繼續。",
+        "submit": "發送訊息",
+        "successMessage": {
+          "title": "消息已發送！",
+          "description": "我們已收到您的消息，將盡快與您聯繫。"
+        },
+        "errorMessage": {
+          "title": "發送錯誤",
+          "description": "發送表單時出現問題。請稍後再試。"
+        }
+      }
     }
   },
   "content": {
@@ -411,6 +440,30 @@
         }
       ],
       "message": "👋 你好，imSoft，你好吗？我想了解关于创建在线商店的信息。 🛒 我想在线销售我的产品，并需要了解你们提供的计划与功能。"
+    },
+    "aiConsulting": {
+      "service": "人工智慧和機器學習諮詢",
+      "title": "利用戰略性人工智慧推動您的業務",
+      "description": "實施基於人工智慧和機器學習的解決方案，以優化流程、預測趨勢並做出更明智的決策。",
+      "features": [
+        {
+          "name": "預測分析",
+          "description": "通過先進的預測模型預測市場行為和趨勢。"
+        },
+        {
+          "name": "人工智慧流程優化",
+          "description": "識別改進領域並利用基於人工智慧的解決方案自動化重複性任務。"
+        },
+        {
+          "name": "聊天機器人實施",
+          "description": "通過個性化的人工智慧虛擬助手提升客戶服務。"
+        },
+        {
+          "name": "數據高級可視化",
+          "description": "將複雜數據轉化為互動式儀表板和易於理解的報告。"
+        }
+      ],
+      "message": "👋 你好，imSoft！我對你們的人工智慧和機器學習諮詢服務很感興趣。🤖 我想了解如何利用基於人工智慧的解決方案來優化流程並做出更具戰略性的決策。"
     }
   },
   "legal": {

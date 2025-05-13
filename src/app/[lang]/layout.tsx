@@ -5,6 +5,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import type { Lang } from "@/types/Lang";
+import { Toaster } from "@/components/ui/sonner"
 
 const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -47,6 +48,7 @@ export default async function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <Toaster />
         <Analytics />
         <SpeedInsights />
       </body>

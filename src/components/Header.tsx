@@ -66,18 +66,17 @@ export const Header = ({
             <NavigationMenuList>
               {navigation.map((item) => (
                 <NavigationMenuItem key={item.name}>
-                  <Link
-                    href={`/${lang}${item.href}`}
-                    legacyBehavior
-                    passHref
-                    aria-label={`Enlace a ${item.name}`}
+                  <NavigationMenuLink
+                    asChild
+                    className={navigationMenuTriggerStyle()}
                   >
-                    <NavigationMenuLink
-                      className={navigationMenuTriggerStyle()}
+                    <Link
+                      href={`/${lang}${item.href}`}
+                      aria-label={`Enlace a ${item.name}`}
                     >
                       {item.name}
-                    </NavigationMenuLink>
-                  </Link>
+                    </Link>
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
               ))}
             </NavigationMenuList>

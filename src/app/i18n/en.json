@@ -2,11 +2,11 @@
   "header": {
     "navigation": [
       { "name": "Home", "href": "/" },
-      { "name": "Services", "href": "/servicios" },
-      { "name": "Portfolio", "href": "/portafolio" },
+      { "name": "Services", "href": "/services" },
+      { "name": "Portfolio", "href": "/portfolio" },
       { "name": "Blog", "href": "/blog" },
-      { "name": "Our Story", "href": "/historia" },
-      { "name": "Contact", "href": "/contacto" }
+      { "name": "Our Story", "href": "/our-story" },
+      { "name": "Contact", "href": "/contact" }
     ],
     "mobileMenuTitle": "imSoft",
     "mobileMenuDescription": "We Transform Ideas into Software"
@@ -25,22 +25,23 @@
       },
       "links": [
         { "name": "Home", "href": "/" },
-        { "name": "Services", "href": "/servicios" },
-        { "name": "Portfolio", "href": "/portafolio" },
+        { "name": "Services", "href": "/services" },
+        { "name": "Portfolio", "href": "/portfolio" },
         { "name": "Blog", "href": "/blog" },
-        { "name": "Our Story", "href": "/historia" },
-        { "name": "Contact", "href": "/contacto" }
+        { "name": "Our Story", "href": "/our-story" },
+        { "name": "Contact", "href": "/contact" }
       ],
       "services": [
-        { "name": "Data Analysis", "href": "/analisis-de-datos" },
-        { "name": "Mobile Apps", "href": "/aplicaciones-moviles" },
-        { "name": "Web Applications", "href": "/aplicaciones-web" },
-        { "name": "Google Ads Campaigns", "href": "/campanas-en-google-ads" },
-        { "name": "Website Development", "href": "/desarrollo-de-sitios-web" },
-        { "name": "SEO Optimization", "href": "/posicionamiento-seo" },
-        { "name": "Online Store", "href": "/tienda-en-linea" }
+        { "name": "Data Analysis", "href": "/data-analysis" },
+        { "name": "Mobile Apps", "href": "/mobile-apps" },
+        { "name": "Web Applications", "href": "/web-applications" },
+        { "name": "Google Ads Campaigns", "href": "/google-ads-campaigns" },
+        { "name": "Website Development", "href": "/website-development" },
+        { "name": "SEO Optimization", "href": "/seo-optimization" },
+        { "name": "Online Store", "href": "/online-store" },
+        { "name": "AI and ML Consulting", "href": "/ai-and-ml-consulting" }
       ],
-      "legal": [{ "name": "Privacy Notice", "href": "/aviso-de-privacidad" }]
+      "legal": [{ "name": "Privacy Notice", "href": "/privacy-notice" }]
     },
     "copyright": "imSoft, Inc. All rights reserved."
   },
@@ -48,13 +49,14 @@
     "text": "Learn more about",
     "linkText": "here",
     "services": [
-      { "name": "Data Analysis", "href": "/analisis-de-datos" },
-      { "name": "Mobile Apps", "href": "/aplicaciones-moviles" },
-      { "name": "Web Applications", "href": "/aplicaciones-web" },
-      { "name": "Google Ads Campaigns", "href": "/campanas-en-google-ads" },
-      { "name": "Website Development", "href": "/desarrollo-de-sitios-web" },
-      { "name": "SEO Optimization", "href": "/posicionamiento-seo" },
-      { "name": "Online Stores", "href": "/tienda-en-linea" }
+      { "name": "Data Analysis", "href": "/data-analysis" },
+      { "name": "Mobile Apps", "href": "/mobile-apps" },
+      { "name": "Web Applications", "href": "/web-applications" },
+      { "name": "Google Ads Campaigns", "href": "/google-ads-campaigns" },
+      { "name": "Website Development", "href": "/website-development" },
+      { "name": "SEO Optimization", "href": "/seo-optimization" },
+      { "name": "Online Store", "href": "/online-store" },
+      { "name": "AI and ML Consulting", "href": "/ai-and-ml-consulting" }
     ]
   },
   "ctaButtons": {
@@ -109,44 +111,50 @@
         {
           "title": "Data Analysis",
           "description": "Make decisions based on data, not assumptions.",
-          "href": "/analisis-de-datos",
+          "href": "/data-analysis",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706898185/imsoft-images/services/analisis-de-datos-imsoft.jpg"
         },
         {
           "title": "Mobile Apps",
           "description": "Connect with clients through an intuitive app.",
-          "href": "/aplicaciones-moviles",
+          "href": "/mobile-apps",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706898396/imsoft-images/services/aplicaciones-moviles-imsoft.jpg"
         },
         {
           "title": "Web Applications",
           "description": "Automate and optimize processes with custom solutions.",
-          "href": "/aplicaciones-web",
+          "href": "/web-applications",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/aplicacion-web-imsoft.jpg"
         },
         {
           "title": "Google Ads Campaigns",
           "description": "Optimized ads for more conversions at lower cost.",
-          "href": "/campanas-en-google-ads",
+          "href": "/google-ads-campaigns",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706902047/imsoft-images/services/campan%CC%83as-google-ads-imsoft.jpg"
         },
         {
           "title": "Website Development",
           "description": "Fast, secure sites built to sell.",
-          "href": "/desarrollo-de-sitios-web",
+          "href": "/website-development",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/sitio-web-imsoft.jpg"
         },
         {
           "title": "SEO Optimization",
           "description": "Appear on Google and attract more organic traffic.",
-          "href": "/posicionamiento-seo",
+          "href": "/seo-optimization",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595026/imsoft-images/services/posicionamiento-seo-imsoft.jpg"
         },
         {
           "title": "Online Store",
           "description": "Sell 24/7 with an optimized, efficient store.",
-          "href": "/tienda-en-linea",
+          "href": "/online-store",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595027/imsoft-images/services/tienda-en-linea-imsoft.jpg"
+        },
+        {
+          "title": "AI and ML Consulting",
+          "description": "Transform your business with artificial intelligence and machine learning.",
+          "href": "/ai-and-ml-consulting",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706902047/imsoft-images/services/consultoria-en-ia-y-machine-learning-imsoft.jpg"
         }
       ]
     }
@@ -282,8 +290,29 @@
       "imageAlt": "The story of imSoft"
     },
     "contact": {
-      "title": "Let's talk about your next big project",
-      "description": "We are ready to help you turn your idea into a powerful digital solution. Contact us and let’s start working together."
+      "ariaLabel": "Contact page to start projects with imSoft",
+      "title": "Contact Us",
+      "description": "We are here to help you. Complete the form and we will get in touch with you as soon as possible to resolve your questions and provide the best solution for your needs.",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "forms": {
+        "name": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone",
+        "message": "Message",
+        "privacyPolicy": "I have read and accept the",
+        "privacyLink": "Privacy Notice",
+        "privacyError": "You must accept the privacy notice to continue.",
+        "submit": "Send Message",
+        "successMessage": {
+          "title": "Message Sent!",
+          "description": "We have received your message and will get back to you as soon as possible."
+        },
+        "errorMessage": {
+          "title": "Error Sending Message",
+          "description": "There was a problem sending the form. Please try again later."
+        }
+      }
     }
   },
   "content": {
@@ -460,6 +489,30 @@
         }
       ],
       "message": "👋 Hello imSoft, how are you? I'm interested in creating an online store. 🛒 I want to sell my products digitally and would like to know more about your plans and features."
+    },
+    "aiConsulting": {
+      "service": "AI and Machine Learning Consulting",
+      "title": "Boost your business with strategic artificial intelligence",
+      "description": "Implement AI and Machine Learning solutions to optimize processes, anticipate trends, and make smarter decisions.",
+      "features": [
+        {
+          "name": "Predictive Analysis",
+          "description": "Anticipate market behaviors and trends with advanced predictive models."
+        },
+        {
+          "name": "Process Optimization with AI",
+          "description": "Identify areas for improvement and automate repetitive tasks using AI-driven solutions."
+        },
+        {
+          "name": "Chatbot Implementation",
+          "description": "Enhance customer service with personalized AI-powered virtual assistants."
+        },
+        {
+          "name": "Advanced Data Visualization",
+          "description": "Turn complex data into interactive dashboards and comprehensible reports."
+        }
+      ],
+      "message": "👋 Hi imSoft, how are you? I'm interested in learning more about your AI and Machine Learning consulting service. 🤖 I'd like to know how I can implement AI-based solutions to optimize my processes and make more strategic decisions."
     }
   },
   "legal": {
