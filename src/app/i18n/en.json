@@ -169,7 +169,7 @@
           "type": "Website 👨‍💻",
           "url": "https://xn--bemstradental-dfb.com/",
           "alt": "Website - BemästraDental - imSoft",
-          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595313/imsoft-images/portfolio/website/sitio-web-dental-welt.png"
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299999/imsoft-images/portfolio/website-pro/website-Bemastra-Dental-imsoft.png"
         },
         {
           "name": "Infinito Empresarial y Aduanero",
@@ -222,28 +222,28 @@
         },
         {
           "name": "Cursumi",
-          "type": "Pro Website 👨‍💻",
+          "type": "Website 👨‍💻",
           "url": "https://cursumi.com/",
           "alt": "Pro Website - Cursumi - imSoft",
-          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595491/imsoft-images/portfolio/website-pro/sitio-web-pro-cursumi.png"
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299884/imsoft-images/portfolio/website-pro/website-cursumi-imsoft.png"
         },
         {
           "name": "The Gaming Corps",
-          "type": "Pro Website 👨‍💻",
+          "type": "Website 👨‍💻",
           "url": "https://thegamingcorps.com/",
           "alt": "Pro Website - The Gaming Corps - imSoft",
-          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1709919081/imsoft-images/portfolio/website-pro/sitio-web-pro-the-gaming-corps.png"
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299885/imsoft-images/portfolio/website-pro/website-the-gaming-corps-imsoft.png"
         },
         {
           "name": "Santa Maria Del Oro Jalisco",
-          "type": "Pro Website 👨‍💻",
+          "type": "Website 👨‍💻",
           "url": "http://santamariadelorojal.com/",
           "alt": "Pro Website - Santa Maria Del Oro Jalisco - imSoft",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595492/imsoft-images/portfolio/website-pro/sitio-web-pro-santa-maria-del-oro-jalisco-imsoft.png"
         },
         {
           "name": "Tuxcacuesco",
-          "type": "Pro Website 👨‍💻",
+          "type": "Website 👨‍💻",
           "url": "https://tuxcacuesco.gob.mx/#/",
           "alt": "Pro Website - Tuxcacuesco - imSoft",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595493/imsoft-images/portfolio/website-pro/sitio-web-pro-tuxcacuesco-imsoft.png"
@@ -257,9 +257,9 @@
         },
         {
           "name": "Club De Estirpe",
-          "type": "Mobile App 📱📊",
+          "type": "Mobile Application 📱📊",
           "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595385/imsoft-images/portfolio/mobile-apps/club-de-estirpe-aplicacion-movil-imsoft.png",
-          "alt": "Mobile App - Club De Estirpe - imSoft",
+          "alt": "Mobile Application - Club De Estirpe - imSoft",
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595385/imsoft-images/portfolio/mobile-apps/club-de-estirpe-aplicacion-movil-imsoft.png"
         },
         {
@@ -270,7 +270,28 @@
           "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1709918898/imsoft-images/portfolio/web-application/aplicaciones-web-steridental-imsoft.png"
         },
         {
-          "name": "¡Contáctanos!",
+          "name": "Ortíz y Cia",
+          "type": "Website 👨‍💻",
+          "url": "https://ortizycia.mx/",
+          "alt": "Website - Ortíz y Cia - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299885/imsoft-images/portfolio/website-pro/website-ortizycia-imsoft.png"
+        },
+        {
+          "name": "Podstore",
+          "type": "Web Application 🖥️📊",
+          "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299789/imsoft-images/portfolio/web-application/aplicaciones-web-podstore-imsoft.png",
+          "alt": "Web Application - Podstore - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299789/imsoft-images/portfolio/web-application/aplicaciones-web-podstore-imsoft.png"
+        },
+        {
+          "name": "Starfilters",
+          "type": "Web Application 🖥️📊",
+          "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299788/imsoft-images/portfolio/web-application/aplicaciones-web-starfilters-imsoft.png",
+          "alt": "Web Application - Starfilters - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299788/imsoft-images/portfolio/web-application/aplicaciones-web-starfilters-imsoft.png"
+        },
+        {
+          "name": "Contact Us!",
           "type": "You're next! 💻🏆",
           "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595141/imsoft-images/portfolio/others/aqui-va-el-siguiente-paso-para-tu-negocio-imsoft.png",
           "alt": "Contact Us - imSoft",

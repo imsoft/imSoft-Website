@@ -169,7 +169,7 @@
           "type": "网站 👨‍💻",
           "url": "https://xn--bemstradental-dfb.com/",
           "alt": "网站 - BemästraDental - imSoft",
-          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595313/imsoft-images/portfolio/website/sitio-web-dental-welt.png"
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299999/imsoft-images/portfolio/website-pro/website-Bemastra-Dental-imsoft.png"
         },
         {
           "name": "Infinito Empresarial y Aduanero",
@@ -224,8 +224,78 @@
           "name": "Cursumi",
           "type": "网站 👨‍💻",
           "url": "https://cursumi.com/",
-          "alt": "网站 - Cursumi - imSoft",
-          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595491/imsoft-images/portfolio/website-pro/sitio-web-pro-cursumi.png"
+          "alt": "专业网站 - Cursumi - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299884/imsoft-images/portfolio/website-pro/website-cursumi-imsoft.png"
+        },
+        {
+          "name": "The Gaming Corps",
+          "type": "网站 👨‍💻",
+          "url": "https://thegamingcorps.com/",
+          "alt": "专业网站 - The Gaming Corps - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299885/imsoft-images/portfolio/website-pro/website-the-gaming-corps-imsoft.png"
+        },
+        {
+          "name": "Santa Maria Del Oro Jalisco",
+          "type": "网站 👨‍💻",
+          "url": "http://santamariadelorojal.com/",
+          "alt": "专业网站 - Santa Maria Del Oro Jalisco - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595492/imsoft-images/portfolio/website-pro/sitio-web-pro-santa-maria-del-oro-jalisco-imsoft.png"
+        },
+        {
+          "name": "Tuxcacuesco",
+          "type": "网站 👨‍💻",
+          "url": "https://tuxcacuesco.gob.mx/#/",
+          "alt": "专业网站 - Tuxcacuesco - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595493/imsoft-images/portfolio/website-pro/sitio-web-pro-tuxcacuesco-imsoft.png"
+        },
+        {
+          "name": "Pastería La Hidalguense",
+          "type": "网页应用 🖥️📊",
+          "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595207/imsoft-images/portfolio/web-application/aplicaciones-web-pasteria-la-hidalguense-imsoft.png",
+          "alt": "网页应用 - Pastería La Hidalguense - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595207/imsoft-images/portfolio/web-application/aplicaciones-web-pasteria-la-hidalguense-imsoft.png"
+        },
+        {
+          "name": "Club De Estirpe",
+          "type": "移动应用 📱📊",
+          "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595385/imsoft-images/portfolio/mobile-apps/club-de-estirpe-aplicacion-movil-imsoft.png",
+          "alt": "移动应用 - Club De Estirpe - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595385/imsoft-images/portfolio/mobile-apps/club-de-estirpe-aplicacion-movil-imsoft.png"
+        },
+        {
+          "name": "Steridental",
+          "type": "网页应用 🖥️📊",
+          "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1709918898/imsoft-images/portfolio/web-application/aplicaciones-web-steridental-imsoft.png",
+          "alt": "网页应用 - Steridental - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1709918898/imsoft-images/portfolio/web-application/aplicaciones-web-steridental-imsoft.png"
+        },
+        {
+          "name": "Ortíz y Cia",
+          "type": "网站 👨‍💻",
+          "url": "https://ortizycia.mx/",
+          "alt": "网站 - Ortíz y Cia - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299885/imsoft-images/portfolio/website-pro/website-ortizycia-imsoft.png"
+        },
+        {
+          "name": "Podstore",
+          "type": "网页应用 🖥️📊",
+          "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299789/imsoft-images/portfolio/web-application/aplicaciones-web-podstore-imsoft.png",
+          "alt": "网页应用 - Podstore - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299789/imsoft-images/portfolio/web-application/aplicaciones-web-podstore-imsoft.png"
+        },
+        {
+          "name": "Starfilters",
+          "type": "网页应用 🖥️📊",
+          "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299788/imsoft-images/portfolio/web-application/aplicaciones-web-starfilters-imsoft.png",
+          "alt": "网页应用 - Starfilters - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1748299788/imsoft-images/portfolio/web-application/aplicaciones-web-starfilters-imsoft.png"
+        },
+        {
+          "name": "联系我们！",
+          "type": "下一个就是你！💻🏆",
+          "url": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595141/imsoft-images/portfolio/others/aqui-va-el-siguiente-paso-para-tu-negocio-imsoft.png",
+          "alt": "联系我们 - imSoft",
+          "imageUrl": "https://res.cloudinary.com/https-imsoft-io/image/upload/v1706595141/imsoft-images/portfolio/others/aqui-va-el-siguiente-paso-para-tu-negocio-imsoft.png"
         }
       ]
     },
