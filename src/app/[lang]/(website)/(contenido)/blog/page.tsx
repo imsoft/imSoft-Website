@@ -13,6 +13,7 @@ const BlogPage = async ({ params }: { params: Promise<{ lang: Lang }> }) => {
 
   const posts = await sanityFetch<SanityDocument[]>({
     query: postsQuery,
+    params: { lang },
   });
 
   return (
