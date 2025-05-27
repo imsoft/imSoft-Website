@@ -1,12 +1,16 @@
 import { MetadataRoute } from "next";
 
-export default async function robots(): Promise<MetadataRoute.Robots> {
+export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       {
         userAgent: "*",
-        allow: "/",
-        disallow: ["/aviso-de-privacidad"],
+        disallow: [
+          "/es/privacy-notice",
+          "/en/privacy-notice",
+          "/ru/privacy-notice",
+          "/zh/privacy-notice",
+        ],
       },
     ],
     sitemap: `${process.env.NEXT_PUBLIC_BASE_URL}/sitemap.xml`,
